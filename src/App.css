@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anonymous Pro', monospace; 
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+ 
+/* Prevent horizontal overflow on small viewports and keep vertical scrollbar to avoid layout shifts */
+html, body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+section {
+  flex: 1 1 auto; 
+  width: 100%;  
+}
+
+.section {
+  opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section.visible {
+  opacity: 1; 
+  transform: translateY(0); 
+  animation: fadeInUp 0.8s ease-out; 
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+

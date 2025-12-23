@@ -1,0 +1,9 @@
+// ...existing code...
+{
+  "compilerOptions": {
+    // ...existing options...
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  }
+}
+// ...existing code...
