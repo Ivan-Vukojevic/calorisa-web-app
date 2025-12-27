@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import { motion } from 'framer-motion';
-import { FaClock, FaDrumstickBite, FaFireAlt } from 'react-icons/fa';
+import { Clock, Drumstick, Flame } from 'lucide-react';
 
 interface Recipe {
   id: string | number;
@@ -111,7 +111,7 @@ const RecipeCard = memo<RecipeCardProps>(({
             whileHover={{ scale: 1.05, y: -3 }}
             transition={{ duration: 0.2 }}
           >
-            <FaClock className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
+            <Clock className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
             <span className="text-xs font-semibold text-[var(--brand)]">{recipe.time}</span>
           </motion.div>
 
@@ -124,7 +124,7 @@ const RecipeCard = memo<RecipeCardProps>(({
             whileHover={{ scale: 1.05, y: -3 }}
             transition={{ duration: 0.2 }}
           >
-            <FaDrumstickBite className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
+            <Drumstick className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
             <span className="text-xs font-semibold text-[var(--brand)]">{recipe.protein}</span>
           </motion.div>
 
@@ -137,7 +137,7 @@ const RecipeCard = memo<RecipeCardProps>(({
             whileHover={{ scale: 1.05, y: -3 }}
             transition={{ duration: 0.2 }}
           >
-            <FaFireAlt className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
+            <Flame className="text-[1.75rem] text-[var(--brand)] mb-1.5" /> 
             <span className="text-xs font-semibold text-[var(--brand)]">{recipe.calories}</span>
           </motion.div>
         </motion.div>

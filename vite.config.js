@@ -1,12 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { visualizer } from 'rollup-plugin-visualizer'
 import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   // include uppercase JPG assets so Vite doesn't try to parse them as JS
   assetsInclude: ['**/*.JPG', '**/*.jpg'],
-  plugins: [react()],
+  plugins: [
+    react(),
+    visualizer({
+      filename: 'dist/stats.html',
+      template: 'treemap',
+      gzipSize: true,
+      brotliSize: true
+    })
+  ],
   server: {
     port: 5174,
     open: true
@@ -48,6 +57,7 @@ export default defineConfig({
     }
   },
   resolve: {
+    dedupe: ['react', 'react-dom'],
     // prefer .jsx over .js when both exist
     extensions: ['.jsx', '.js', '.ts', '.tsx', '.json'],
     alias: {

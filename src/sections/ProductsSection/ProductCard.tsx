@@ -107,17 +107,17 @@ export function ProductCardMobile({ card, index }: ProductCardMobileProps): JSX.
       <h3 className="text-3xl font-heading font-bold text-[var(--brand)] mb-4 leading-tight text-center uppercase">
         {card.title}
       </h3>
-      <p className="text-lg text-[#4f4f4f] mb-6 leading-relaxed text-center">
+      <p className="text-base text-[#4f4f4f] mb-6 leading-relaxed text-center">
         {card.description}
       </p>
-      <ul className="list-none pl-0 m-0 mb-6 text-[#4f4f4f] text-lg leading-normal space-y-5">
+      <ul className="list-none pl-0 m-0 mb-6 text-[#4f4f4f] text-sm leading-normal space-y-3">
         {(card.notes || []).map((note, noteIndex) => {
           const IconComponent = getIconForNote(note);
           return (
-            <li key={`note-${noteIndex}`} className="flex items-start gap-4">
+            <li key={`note-${noteIndex}`} className="flex items-start gap-3">
               <Icon 
                 Component={IconComponent} 
-                className="w-7 h-7 text-[var(--brand)] mt-0.5 flex-shrink-0"
+                className="w-5 h-5 text-[var(--brand)] mt-0.5 flex-shrink-0"
               />
               <span className="flex-1">{getNoteText(note, t)}</span>
             </li>

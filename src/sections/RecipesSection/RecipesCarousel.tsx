@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaClock, FaDrumstickBite, FaFireAlt } from 'react-icons/fa';
+import { Clock, Drumstick, Flame } from 'lucide-react';
 import useSwipeGesture from '../../hooks/useSwipeGesture';
 
 interface Recipe {
@@ -72,15 +72,15 @@ function RecipesCarousel({ recipesData, getImageUrl }: RecipesCarouselProps): JS
                 {/* Stats with improved design */}
                 <div className="grid grid-cols-3 gap-2">
                   <div className="flex flex-col items-center bg-[var(--cream)] rounded-lg p-3">
-                    <FaClock className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
+                    <Clock className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
                     <span className="text-xs font-medium text-[var(--brand)]">{recipesData[currentIndex].time}</span>
                   </div>
                   <div className="flex flex-col items-center bg-[var(--cream)] rounded-lg p-3">
-                    <FaDrumstickBite className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
+                    <Drumstick className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
                     <span className="text-xs font-medium text-[var(--brand)]">{recipesData[currentIndex].protein}</span>
                   </div>
                   <div className="flex flex-col items-center bg-[var(--cream)] rounded-lg p-3">
-                    <FaFireAlt className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
+                    <Flame className="text-[1.75rem] text-[var(--brand)] mb-1.5" />
                     <span className="text-xs font-medium text-[var(--brand)]">{recipesData[currentIndex].calories}</span>
                   </div>
                 </div>

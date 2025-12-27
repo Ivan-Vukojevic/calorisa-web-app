@@ -1,19 +1,19 @@
-import { 
-  TbMessageCircle, 
-  TbBook, 
-  TbToolsKitchen2, 
-  TbBarbell, 
-  TbCalendarTime, 
-  TbChefHat,
-  TbHeart,
-  TbListCheck,
-  TbUsers,
-  TbClipboardText,
-  TbDevices,
-  TbVideo,
-  TbPhone,
-  TbSquareCheck
-} from 'react-icons/tb';
+import {
+  MessageCircle,
+  Book,
+  Utensils,
+  Dumbbell,
+  Calendar,
+  ChefHat,
+  Heart,
+  ListChecks,
+  Users,
+  ClipboardList,
+  MonitorSmartphone,
+  Video,
+  Phone,
+  SquareCheck,
+} from 'lucide-react';
 
 export const getIconForNote = (note) => {
   let id = null;
@@ -24,117 +24,117 @@ export const getIconForNote = (note) => {
     switch (id) {
       case 'analysis':
       case 'tips-analysis':
-        return TbMessageCircle;
+        return MessageCircle;
       case 'education':
       case 'education-habits':
-        return TbBook;
+        return Book;
       case 'suggestions':
-        return TbSquareCheck;
+        return SquareCheck;
       case 'meal-plan':
       case 'nutrition-plan':
-        return TbToolsKitchen2;
+        return Utensils;
       case 'training-plan':
       case 'workout-plan':
-        return TbBarbell;
+        return Dumbbell;
       case 'recipes':
       case 'meal-options':
-        return TbChefHat;
+        return ChefHat;
       case 'communication':
       case 'flexibility':
-        return TbPhone;
+        return Phone;
       case 'adjustment':
       case 'scheduling':
-        return TbSquareCheck;
+        return SquareCheck;
       case 'nutrition-training-plans':
       case 'combined-plans':
-        return TbBarbell;
+        return Dumbbell;
       case 'support':
       case '24h-support':
-        return TbPhone;
+        return Phone;
       case 'weekly-checks':
       case 'check-ins':
-        return TbCalendarTime;
+        return Calendar;
       case 'process-guidance':
       case 'guidance':
-        return TbHeart;
+        return Heart;
       case 'customized-workout':
-        return TbBarbell;
+        return Dumbbell;
       case 'individual-coaching':
       case 'coaching':
-        return TbSquareCheck;
+        return SquareCheck;
       case 'flexible-scheduling':
-        return TbListCheck;
+        return ListChecks;
       case 'progress':
       case 'progress-tracking':
-        return TbClipboardText;
+        return ClipboardList;
       case 'video':
       case 'video-sessions':
-        return TbVideo;
+        return Video;
       case 'weekly-plans':
-        return TbSquareCheck;
+        return SquareCheck;
       case 'online-support':
-        return TbPhone;
+        return Phone;
       case 'devices':
       case 'device-access':
-        return TbDevices;
+        return MonitorSmartphone;
       case 'partner':
       case 'partner-exercises':
-        return TbUsers;
+        return Users;
       case 'full-body':
       case 'full-body-workout':
-        return TbBarbell;
+        return Dumbbell;
       case 'all-levels':
-        return TbSquareCheck;
+        return SquareCheck;
       case 'motivation':
       case 'enhanced-motivation':
-        return TbHeart;
+        return Heart;
       default:
-        return TbSquareCheck;
+        return SquareCheck;
     }
   }
 
   if (typeof note === 'string') {
     const noteLower = note.toLowerCase();
     if (noteLower.includes('savjet') || noteLower.includes('analiz') || noteLower.includes('advice') || noteLower.includes('consult')) {
-      return TbMessageCircle;
+      return MessageCircle;
     }
     if (noteLower.includes('edukacija') || noteLower.includes('education') || noteLower.includes('učenj')) {
-      return TbBook;
+      return Book;
     }
     if (noteLower.includes('plan prehrane') || noteLower.includes('meal plan') || noteLower.includes('plan obroka')) {
-      return TbToolsKitchen2;
+      return Utensils;
     }
     if (noteLower.includes('plan trening') || noteLower.includes('vježb') || noteLower.includes('training') || noteLower.includes('workout')) {
-      return TbBarbell;
+      return Dumbbell;
     }
     if (noteLower.includes('recept') || noteLower.includes('recipe') || noteLower.includes('obrok')) {
-      return TbChefHat;
+      return ChefHat;
     }
     if (noteLower.includes('komunikacija') || noteLower.includes('podrška') || noteLower.includes('support') || noteLower.includes('24-satna')) {
-      return TbPhone;
+      return Phone;
     }
     if (noteLower.includes('tjedn') || noteLower.includes('provjera') || noteLower.includes('weekly') || noteLower.includes('check')) {
-      return TbCalendarTime;
+      return Calendar;
     }
     if (noteLower.includes('fleksibiln') || noteLower.includes('prilagod') || noteLower.includes('flexib') || noteLower.includes('custom')) {
-      return TbListCheck;
+      return ListChecks;
     }
     if (noteLower.includes('video') || noteLower.includes('online')) {
-      return TbVideo;
+      return Video;
     }
     if (noteLower.includes('uređaj') || noteLower.includes('device') || noteLower.includes('dostupn')) {
-      return TbDevices;
+      return MonitorSmartphone;
     }
     if (noteLower.includes('par') || noteLower.includes('duo') || noteLower.includes('pair') || noteLower.includes('zajedno')) {
-      return TbUsers;
+      return Users;
     }
     if (noteLower.includes('motiv') || noteLower.includes('vodič') || noteLower.includes('guidance')) {
-      return TbHeart;
+      return Heart;
     }
     if (noteLower.includes('praćenj') || noteLower.includes('napredak') || noteLower.includes('progress')) {
-      return TbClipboardText;
+        return ClipboardList;
     }
   }
-
+      return SquareCheck;
   return TbSquareCheck;
 };

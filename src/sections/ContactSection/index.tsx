@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaInstagram, FaYoutube, FaMapMarkerAlt } from 'react-icons/fa';
+import { Mail, Instagram, Youtube, MapPin } from 'lucide-react';
 import ContactForm from './ContactForm';
 import { useContactForm } from './hooks/useContactForm';
 
@@ -57,7 +57,7 @@ function ContactSection(): JSX.Element {
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaEnvelope />
+              <Mail />
             </motion.a>
             <motion.a 
               href="https://www.instagram.com/calorisanutrition?igsh=MTczMGJvMXdqbjg5Mg%3D%3D&utm_source=qr" 
@@ -68,7 +68,7 @@ function ContactSection(): JSX.Element {
               whileHover={{ scale: 1.2, rotate: -5 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaInstagram />
+              <Instagram />
             </motion.a>
             <motion.a 
               href="https://youtube.com/@calorisa?si=Cc3on3GyzkW6sJjJ" 
@@ -79,7 +79,7 @@ function ContactSection(): JSX.Element {
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaYoutube />
+              <Youtube />
             </motion.a>
           </div>
         </div>
@@ -87,7 +87,7 @@ function ContactSection(): JSX.Element {
         <div>
           <h3 className="text-h5 mb-[20px] text-[#6b4f4f]">{t("main.contact.address.title")}</h3>
           <p className="text-body text-[#6b4f4f]">
-            <FaMapMarkerAlt className="inline mr-[10px]" />
+            <MapPin className="inline mr-[10px]" />
             {t("main.contact.address.details")}
           </p>
         </div>

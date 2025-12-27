@@ -1,4 +1,4 @@
-import { FaEnvelope, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { Mail, Instagram, Youtube } from 'lucide-react';
 
 export function SocialIcons(): JSX.Element {
   return (
@@ -10,7 +10,7 @@ export function SocialIcons(): JSX.Element {
         rel="noopener noreferrer"
         className="text-[2.5rem] text-white no-underline transition-all duration-300 hover:text-[#f7f0ec] hover:scale-110"
       >
-        <FaEnvelope />
+        <Mail />
       </a>
       <a 
         href="https://www.instagram.com/calorisanutrition?igsh=MTczMGJvMXdqbjg5Mg%3D%3D&utm_source=qr" 
@@ -19,7 +19,7 @@ export function SocialIcons(): JSX.Element {
         rel="noopener noreferrer"
         className="text-[2.5rem] text-white no-underline transition-all duration-300 hover:text-[#f7f0ec] hover:scale-110"
       >
-        <FaInstagram />
+        <Instagram />
       </a>
       <a 
         href="https://youtube.com/@calorisa?si=Cc3on3GyzkW6sJjJ" 
@@ -28,7 +28,7 @@ export function SocialIcons(): JSX.Element {
         rel="noopener noreferrer"
         className="text-[2.5rem] text-white no-underline transition-all duration-300 hover:text-[#f7f0ec] hover:scale-110"
       >
-        <FaYoutube />
+        <Youtube />
       </a>
     </div>
   );

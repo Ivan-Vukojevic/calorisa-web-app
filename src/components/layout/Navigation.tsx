@@ -4,7 +4,8 @@ import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import LanguageSwitcher from "../LanguageSwitcher";
-import imgRectangle10 from "../../assets/images/calorisa-brown-logo.png";
+import logo115 from "../../assets/images/calorisa-brown-logo-w115.png";
+import logo230 from "../../assets/images/calorisa-brown-logo-w230.png";
 import { useTranslation } from "react-i18next";
 
 interface NavLink {
@@ -153,8 +154,12 @@ export function Navigation({ isScrolled = false, isPassedApproach = false }: Nav
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <img 
-                src={imgRectangle10} 
+                src={logo115}
+                srcSet={`${logo115} 115w, ${logo230} 230w`}
+                sizes="(min-width: 640px) 115px, 96px"
                 alt="CALORISA" 
+                width="115"
+                height="46"
                 className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </motion.div>

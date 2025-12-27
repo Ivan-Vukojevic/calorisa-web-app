@@ -1,8 +1,6 @@
-import { IconType } from 'react-icons';
-
 interface IconProps {
-  /** Icon component from react-icons */
-  Component: IconType;
+  /** Icon component (lucide-react or react-icons) */
+  Component: React.ComponentType<{ className?: string }>;
   /** Additional Tailwind classes for styling */
   className?: string;
   /** Optional accessible title/tooltip (if provided, icon is informative) */

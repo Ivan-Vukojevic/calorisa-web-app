@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaArrowUp, FaInstagram, FaYoutube, FaEnvelope, FaHome, FaInfoCircle, FaBoxOpen, FaUtensils } from 'react-icons/fa';
-import { IconType } from 'react-icons';
+import { ArrowUp, Instagram, Youtube, Mail, Home, Info, Package, Utensils, LucideIcon } from 'lucide-react';
 import imgLogo from '../../assets/images/calorisa-logo.png';
 
 interface NavLink {
   key: string;
   label: string;
   href: string;
-  icon: IconType;
+  icon: LucideIcon;
 }
 
 // Legal link interface for type safety
@@ -21,7 +20,7 @@ interface LegalLink {
 }
 
 interface SocialLink {
-  icon: IconType;
+  icon: LucideIcon;
   href: string;
   label: string;
 }
@@ -60,17 +59,17 @@ function Footer(): JSX.Element {
   };
 
   const navLinks: NavLink[] = [
-    { key: 'home', label: t('footer.home'), href: '#hero', icon: FaHome },
-    { key: 'about', label: t('footer.about'), href: '#about', icon: FaInfoCircle },
-    { key: 'products', label: t('footer.products'), href: '#products', icon: FaBoxOpen },
-    { key: 'recipes', label: t('footer.recipes'), href: '#recipes', icon: FaUtensils },
-    { key: 'contact', label: t('footer.contact'), href: '#contact', icon: FaEnvelope },
+    { key: 'home', label: t('footer.home'), href: '#hero', icon: Home },
+    { key: 'about', label: t('footer.about'), href: '#about', icon: Info },
+    { key: 'products', label: t('footer.products'), href: '#products', icon: Package },
+    { key: 'recipes', label: t('footer.recipes'), href: '#recipes', icon: Utensils },
+    { key: 'contact', label: t('footer.contact'), href: '#contact', icon: Mail },
   ];
 
   const socialLinks: SocialLink[] = [
-    { icon: FaInstagram, href: 'https://www.instagram.com/calorisanutrition?igsh=MTczMGJvMXdqbjg5Mg%3D%3D&utm_source=qr', label: 'Instagram' },
-    { icon: FaYoutube, href: 'https://youtube.com/@calorisa?si=Cc3on3GyzkW6sJjJ', label: 'YouTube' },
-    { icon: FaEnvelope, href: 'mailto:calorisanutrition@gmail.com', label: 'Email' },
+    { icon: Instagram, href: 'https://www.instagram.com/calorisanutrition?igsh=MTczMGJvMXdqbjg5Mg%3D%3D&utm_source=qr', label: 'Instagram' },
+    { icon: Youtube, href: 'https://youtube.com/@calorisa?si=Cc3on3GyzkW6sJjJ', label: 'YouTube' },
+    { icon: Mail, href: 'mailto:calorisanutrition@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -89,6 +88,8 @@ function Footer(): JSX.Element {
             <img 
               src={imgLogo} 
               alt="Calorisa" 
+              width="400"
+              height="160"
               className="h-16 w-auto object-contain mb-4"
             />
             <p className="text-sm text-white/90 text-center md:text-left leading-relaxed max-w-xs">
@@ -142,7 +143,7 @@ function Footer(): JSX.Element {
             </h3>
             <div className="space-y-3 text-sm text-white/80 text-center md:text-left">
               <p className="flex items-center gap-2 justify-center md:justify-start">
-                <FaEnvelope className="text-white" />
+                <Mail className="text-white" />
                 <a href="mailto:calorisanutrition@gmail.com" className="text-xs hover:text-white transition-colors">
                   calorisanutrition@gmail.com
                 </a>
@@ -226,7 +227,7 @@ function Footer(): JSX.Element {
         transition={{ duration: 0.5, delay: 1 }}
         aria-label="Scroll to top"
       >
-        <FaArrowUp className="text-xl" />
+        <ArrowUp className="text-xl" />
       </motion.button>
     </footer>
   );
