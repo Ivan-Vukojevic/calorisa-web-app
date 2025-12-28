@@ -1,0 +1,585 @@
+{
+    "header": {
+        "logo": "Calorisa - Nutrizione e Fitness",
+        "home": "Home",
+        "about": "Chi siamo",
+        "products": "Prodotti",
+        "recipes": "Ricette",
+        "contact": "Contatto"
+    },
+    "main": {
+        "hero": {
+            "title": "BENVENUTI ALLA BUONA VITA.",
+            "description": "Trasforma il tuo percorso di salute con piani nutrizionali personalizzati e consulenza fitness esperta.",
+            "ctaPrimary": "Inizia",
+            "ctaSecondary": "Scopri di più",
+            "nutritionstAlt": "Nutrizionista",
+            "logoAlt": "Logo Calorisa"
+        },
+        "approach": {
+            "details": {
+                "heading": "Il nostro approccio completo alla nutrizione",
+                "paragraph": "Ogni cliente ha esigenze sanitarie uniche. Il nostro approccio è personalizzato per ogni individuo per aiutare a raggiungere una salute ottimale. Comprendiamo che ogni persona è unica, con obiettivi e sfide sanitarie distinti. Pertanto, adottiamo un approccio individualizzato, garantendo che ogni cliente riceva un piano su misura per le proprie esigenze specifiche. Combinando la ricerca scientifica moderna con pratiche tradizionali collaudate nel tempo, ci sforziamo di fornire le cure più efficaci e olistiche possibili."
+            },
+            "programs": {
+                "title": "Programmi e soluzioni che offro:",
+                "healthImprovement": {
+                    "title": "Miglioramento della salute",
+                    "description": "Per coloro che desiderano più energia, una migliore digestione ed equilibrio attraverso un'alimentazione individualmente adattata e abitudini quotidiane."
+                },
+                "weightLoss": {
+                    "title": "Regolazione del peso",
+                    "description": "Un approccio sano e sostenibile alla regolazione del peso corporeo — senza restrizioni, con comprensione e adattamento al proprio ritmo."
+                },
+                "sportsNutrition": {
+                    "title": "Nutrizione sportiva",
+                    "description": "Nutrizione personalizzata per sportivi ricreativi e atleti con l'obiettivo di migliorare le prestazioni, la forza e il recupero."
+                },
+                "nutritionEducation": {
+                    "title": "Educazione nutrizionale",
+                    "description": "Imparare come creare in modo indipendente pasti equilibrati, comprendere le esigenze del corpo e mantenere abitudini sane a lungo termine."
+                }
+            },
+            "imageAlt": "Preparazione di cibi sani"
+        },
+        "about": {
+            "intro": {
+                "greeting": "Ciao!",
+                "name": "Sono mag.nutr. Sarah Vukojević",
+                "descriptionPart1": "Sono <strong>Sarah</strong>, nutrizionista di <strong>Osijek</strong>, personal trainer di <strong>Functional Training</strong> e <strong>istruttrice certificata di Pilates Reformer</strong>, con una laurea conseguita a <strong>Monaco di Baviera</strong>. Da oltre tre anni gestisco il mio <strong>studio a Tvrđa, Osijek</strong>, dedicato a un approccio olistico alla salute e al movimento.",
+                "descriptionPart2": "Per me, uno stile di vita sano è più di un'abitudine o di delle regole — è un'<strong>arte di vivere</strong>. Credo nell'<strong>equilibrio</strong>, nel <strong>godersi il cibo e nel ritmo naturale del corpo</strong>... il vero cambiamento non deriva dalla privazione, ma dalla comprensione di se stessi e delle proprie esigenze, e i migliori risultati si ottengono con la costanza.",
+                "descriptionPart3": "Nel mio lavoro, combino <strong>principi nutrizionali basati sulla scienza</strong> con un'<strong>esperienza pratica di allenamento</strong>, offrendo ai miei clienti un <strong>approccio completo</strong> che considera il corpo, la mente e le abitudini quotidiane. Il mio obiettivo è aiutare ciascuno a costruire una relazione sostenibile con la nutrizione, l'esercizio fisico e se stessi — senza estremismi, restrizioni o sensi di colpa. Un rapporto sano con il cibo e il corpo apporta benefici non solo all'individuo, ma anche all'intera famiglia. Ecco perché credo nell'importanza di dare il <strong>buon esempio ai nostri figli</strong>, attraverso abitudini semplici e sostenibili e scelte quotidiane che plasmano un futuro più sano. Nel mondo odierno, pieno di informazioni contraddittorie e non verificate, è facile perdersi e bloccarsi. Ecco perché è importante avere una <strong>guida che vi orienti e obiettivi chiari</strong> che portino a risultati reali e sostenibili, senza tendenze confuse, ma concentrandosi su ciò di cui il vostro corpo ha realmente bisogno."
+            },
+            "image": {
+                "imageAlt": "Nutrizionista Sarah Vukojević"
+            },
+            "stats": {
+                "clients": {
+                    "title": "100 +",
+                    "description": "Clienti Soddisfatti"
+                },
+                "experience": {
+                    "title": "10 +",
+                    "description": "Anni di Esperienza"
+                },
+                "services": {
+                    "title": "3",
+                    "description": "Tipi di Servizi"
+                }
+            }
+        },
+        "programs": {
+            "title": "Consulenza nutrizionale progettata solo per te",
+            "coverImageAlt": "Programmi Calorisa a Osijek — coaching nutrizionale, personal training e sessioni Pilates Reformer",
+            "faqButton": "Domande frequenti",
+            "faqTitle": "Domande frequenti",
+            "faqs": [
+                {
+                    "question": "Quanto dura il programma?",
+                    "answer": "Ogni programma è adattato alle tue esigenze. Tipicamente, i programmi durano da 4 a 12 settimane, a seconda dei tuoi obiettivi e progressi."
+                },
+                {
+                    "question": "Ho bisogno di attrezzature speciali?",
+                    "answer": "No, la maggior parte dei programmi non richiede attrezzature speciali. Adatteremo il tuo piano a quello che hai già o ti aiuteremo con semplici raccomandazioni."
+                },
+                {
+                    "question": "Come viene mantenuto il supporto?",
+                    "answer": "Forniamo supporto continuo attraverso consultazioni regolari, monitoraggio dei progressi e aggiustamenti del piano secondo necessità. Siamo disponibili via email e appuntamenti programmati."
+                }
+            ],
+            "section1": {
+                "heading": "Analizza il tuo stato nutrizionale e stabilisci il tuo obiettivo",
+                "description": "Il primo contatto è contemporaneamente il primo passo della nostra comunicazione. Attraverso diagnostica e consultazioni della durata di 60-90 minuti, miro a raccogliere quante più informazioni possibili sulla tua nutrizione attuale e sui possibili miglioramenti. Per la diagnostica viene utilizzata attrezzatura professionale - la bilancia InBody 120, che porta una dimensione completamente nuova nella misurazione del tuo corpo: misurazione del peso, massa ossea e muscolare, grasso, percentuale di acqua corporea, contenuto di proteine e minerali, tessuto adiposo viscerale e analisi corporea segmentale. Idealmente, dovresti portare gli esami del sangue recenti (non più vecchi di 3 mesi) alla consultazione."
+            },
+            "section2": {
+                "heading": "Piano personalizzato e linee guida",
+                "description": "Nel secondo passo, creo il tuo piano nutrizionale individuale e linee guida dettagliate. Determiniamo il tipo di dieta (perdita di peso, nutrizione sportiva, specifica per determinate condizioni), apporto calorico raccomandato, numero di pasti, e ricevi una <strong>lista della spesa</strong> con i generi alimentari per la spesa settimanale. Hai un programma impegnativo e non hai tempo di pensare a cosa cucinare? Vuoi migliorare la tua nutrizione o condizione di salute? Vuoi iniziare ad allenarti ma hai bisogno di motivazione e guida? <strong>Perfetto – contattaci e iniziamo subito!</strong> Riceverai strumenti esperti e pratici, motivazione per rimanere coerente e supporto costante."
+            },
+            "section3": {
+                "heading": "Impegnati completamente con supporto",
+                "description": "Attraverso controlli regolari, monitoriamo i tuoi progressi e apportiamo modifiche al tuo menu, apporto calorico o piano di allenamento secondo necessità. Con ogni controllo, ottieni una chiara comprensione di dove stai progredendo e dove possiamo ulteriormente ottimizzare l'approccio. Raccomando anche l'integrazione di attività fisica regolare – che si tratti di allenamento ricreativo, aumento della massa muscolare o riduzione del grasso corporeo, considerando frequenza, intensità e tipo di attività (forza, allenamento funzionale, attività cardiovascolari). <strong>Il mio obiettivo è che tu ti senta sicuro, motivato e guidato verso il risultato che desideri raggiungere – con nutrizione e allenamento che lavorano per te, non contro di te.</strong>"
+            }
+        },
+        "products": {
+            "heading": "I Nostri Servizi",
+            "coverImageAlt": "Prodotto per fitness e nutrizione",
+            "tabs": {
+                "nutrition": "Nutrizione",
+                "training": "Allenamento",
+                "pilates": "Pilates Reformer"
+            },
+            "intros": {
+                "nutrition": "Carburante che si adatta alla tua vita — senza stress, solo equilibrio.",
+                "training": "Forza che si adatta al tuo ritmo — flessibile e mirato.",
+                "pilates": "Trova il tuo flusso — equilibrio ed energia in movimento."
+            },
+            "noteLabels": {
+                "tips-analysis": "Suggerimenti per analizzare il tuo stato attuale e i tuoi obiettivi",
+                "education-habits": "Educazione sulle abitudini alimentari",
+                "suggestions": "Proposte per il lavoro futuro",
+                "nutrition-plan": "Piano nutrizionale",
+                "training-plan": "Piano di allenamento",
+                "meal-options": "Ricette e opzioni per i pasti",
+                "communication": "Comunicazione e flessibilità",
+                "adjustment": "Adattamento alle tue esigenze e al tuo programma",
+                "combined-plans": "Piani nutrizionali e di allenamento",
+                "24h-support": "Supporto e motivazione 24 ore su 24",
+                "check-ins": "Check-in settimanali",
+                "guidance": "Guida al processo",
+                "customized-workout": "Piani di allenamento personalizzati",
+                "individual-coaching": "Attenzione individuale e coaching",
+                "flexible-scheduling": "Programmazione flessibile",
+                "progress-tracking": "Monitoraggio dei progressi e adattamenti",
+                "video-sessions": "Sessioni video di allenamento",
+                "weekly-plans": "Piani di allenamento settimanali",
+                "online-support": "Supporto e guida online",
+                "device-access": "Accessibile da qualsiasi dispositivo",
+                "partner-exercises": "Esercizi in coppia",
+                "full-body-workout": "Allenamento per tutto il corpo",
+                "all-levels": "Adatto a tutti i livelli",
+                "enhanced-motivation": "Maggiore motivazione e divertimento"
+            },
+            "nutrition": {
+                "cards": [
+                    {
+                        "title": "Creazione Menu",
+                        "description": "Piani pasto personalizzati adattati ai tuoi obiettivi, gusti e stile di vita.",
+                        "price": "€350",
+                        "notes": [
+                            "nutrition-plan",
+                            "meal-options",
+                            "education-habits",
+                            "adjustment"
+                        ],
+                        "button": "Inizia il Tuo Menu"
+                    },
+                    {
+                        "title": "Pesatura & Analisi",
+                        "description": "Monitoraggio regolare dei progressi con analisi esperta e suggerimenti di ottimizzazione.",
+                        "price": "€30",
+                        "notes": [
+                            "progress-tracking",
+                            "tips-analysis",
+                            "check-ins",
+                            "adjustment"
+                        ],
+                        "button": "Monitora i Tuoi Progressi"
+                    },
+                    {
+                        "title": "Educazione Nutrizionale",
+                        "description": "Impara tutto sull'alimentazione sana e come creare pasti equilibrati in modo indipendente.",
+                        "price": "€250",
+                        "notes": [
+                            "education-habits",
+                            "suggestions",
+                            "guidance",
+                            "communication"
+                        ],
+                        "button": "Impara sulla Nutrizione"
+                    }
+                ]
+            },
+            "training": {
+                "cards": [
+                    {
+                        "title": "Allenamento Privato",
+                        "description": "Sessioni di allenamento personalizzate uno a uno su misura per i tuoi obiettivi fitness.",
+                        "price": "€35 / sessione",
+                        "notes": [
+                            "customized-workout",
+                            "individual-coaching",
+                            "flexible-scheduling",
+                            "progress-tracking"
+                        ],
+                        "button": "Inizia il tuo coaching personale"
+                    },
+                    {
+                        "title": "Allenamento Online",
+                        "description": "Allenati ovunque con i nostri programmi di allenamento online completi.",
+                        "price": "€25 / mese",
+                        "notes": [
+                            "video-sessions",
+                            "weekly-plans",
+                            "online-support",
+                            "device-access"
+                        ],
+                        "button": "Muoviamoci — online"
+                    }
+                ]
+            },
+            "pilates": {
+                "cards": [
+                    {
+                        "title": "Allenamento Dual Reformer",
+                        "description": "Sessione di Pilates Reformer per due persone – motivazione e divertimento in movimento.",
+                        "price": "€150 / persona",
+                        "notes": [
+                            "partner-exercises",
+                            "full-body-workout",
+                            "all-levels",
+                            "enhanced-motivation"
+                        ],
+                        "button": "Allenatevi insieme — prenota ora"
+                    }
+                ]
+            }
+        },
+        "reformer": {
+            "title": "Pilates Reformer",
+            "coverTitle": "Pilates Reformer",
+            "coverImageAlt": "Attrezzatura Pilates Reformer",
+            "features": [
+                "Forza e stabilità del core migliorate",
+                "Flessibilità e postura migliorate",
+                "Allenamento completo a basso impatto",
+                "Tono muscolare e definizione aumentati",
+                "Migliore consapevolezza corporea e coordinazione"
+            ],
+            "button": "Rivendica il tuo momento — è tuo",
+            "noFeatures": "Nessuna funzionalità disponibile al momento.",
+            "importance": "Il Pilates Reformer è un attrezzo versatile che ti aiuta a raggiungere un corpo equilibrato, forte e flessibile. È adatto a tutti i livelli di fitness e offre un modo sicuro ed efficace per migliorare la tua salute.",
+            "benefitsTitle": "Perché scegliere il Reformer Pilates?",
+            "benefitsSubtitle": "Scopri i benefici unici che rendono il Reformer Pilates uno degli allenamenti per tutto il corpo più efficaci disponibili.",
+            "benefit1Title": "Allenamento per tutto il corpo",
+            "benefit1Desc": "Coinvolgi ogni gruppo muscolare con precisione e controllo",
+            "benefit2Title": "Basso impatto",
+            "benefit2Desc": "Delicato sulle articolazioni mentre costruisce forza e flessibilità",
+            "benefit3Title": "Energia aumentata",
+            "benefit3Desc": "Stimola il metabolismo e sentiti energico durante tutto il giorno",
+            "benefit4Title": "Forza del core",
+            "benefit4Desc": "Sviluppa una solida base del core per i movimenti quotidiani",
+            "galleryTitle": "La nostra galleria dello studio",
+            "gallerySubtitle": "Dai un'occhiata al nostro studio Pilates all'avanguardia e scopri dove avviene la trasformazione.",
+            "galleryCaption1": "Sessione Pilates Reformer — allenamento della forza del core",
+            "galleryCaption2": "Esercizio Reformer Pilates — flessibilità ed equilibrio",
+            "galleryCaption3": "Attrezzatura dello studio Pilates a Calorisa, Osijek",
+            "galleryCaption4": "Allenamento Reformer — workout per tutto il corpo",
+            "galleryCaption5": "Pilates Reformer — movimento controllato e postura",
+            "galleryCaption6": "Sessione Calorisa Reformer — forza e mobilità",
+            "galleryCaption7": "Lezione di Pilates Reformer nello studio di Osijek",
+            "galleryCaption8": "Reformer Pilates — allenamento di precisione",
+            "sessions": {
+                "beginner": {
+                    "title": "Sessioni per principianti",
+                    "description": "Introduzione perfetta all'allenamento Reformer",
+                    "duration": "45 minuti",
+                    "price": "50€"
+                },
+                "intermediate": {
+                    "title": "Sessioni intermedie",
+                    "description": "Costruisci forza e perfeziona la tecnica",
+                    "duration": "60 minuti",
+                    "price": "60€"
+                },
+                "advanced": {
+                    "title": "Sessioni avanzate",
+                    "description": "Sfida te stesso con movimenti complessi",
+                    "duration": "60 minuti",
+                    "price": "70€"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Cosa dicono i nostri clienti",
+            "feedbackData": [
+                {
+                    "name": "Tibor H.",
+                    "feedback": "Tutto è fantastico, sto seguendo la dieta... la scorsa settimana è stata una transizione graduale, ma in generale sto seguendo tutto. Ho persino adattato il pasto post-allenamento per renderlo più semplice da preparare. Sono felice di aver abbassato il mio colesterolo da 7,5 mmol/L a 5,3 mmol/L, e con questa dieta che mi hai consigliato, mi aspetto che scenda ancora di più al prossimo controllo!"
+                },
+                {
+                    "name": "Petra D.",
+                    "feedback": "Calorisa fornisce un servizio eccezionalmente professionale ed esperto, con un approccio molto gentile e caloroso. Con la conoscenza e la dedizione che Sarah dedica a ogni domanda e necessità, i risultati e i progressi sono garantiti. Tutti i complimenti e le raccomandazioni!"
+                },
+                {
+                    "name": "Associazione \"Duga Osijek\"",
+                    "feedback": "Vogliamo ringraziarti per la collaborazione di grande successo che la nostra Associazione ha con te nella realizzazione delle nostre attività programmatiche: workshop sull'alimentazione sana, la conservazione della salute e l'esercizio fisico regolare condotto sotto la tua guida esperta con grandi elogi da parte degli utenti di queste attività."
+                }
+            ]
+        },
+        "recipes": {
+            "title": "Ricette Sane",
+            "recipesData": [
+                {
+                    "id": 1,
+                    "name": "Insalata di Manzo e Verdure",
+                    "description": "Questa insalata di manzo e verdure offre una combinazione potente di proteine e ingredienti freschi e croccanti. Il manzo grigliato, succoso e ricco di ferro, è accompagnato da broccoli e rucola per un tocco verde ricco di fibre. Cavolo croccante e peperone rosso dolce aggiungono consistenza e colore vivace, bilanciati da un leggero condimento all'olio d'oliva e limone. Perfetta come pasto post-allenamento o cena nutriente e leggera.",
+                    "image": "calorisa-recipes-osijek-beef-veggie-salad.jpg",
+                    "time": "30 min",
+                    "protein": "22g Proteine",
+                    "calories": "320 Calorie"
+                },
+                {
+                    "id": 2,
+                    "name": "Panino Proteico con Pollo e Verdure",
+                    "description": "Questo panino al pollo è pensato per chi cerca un pasto veloce, gustoso e nutriente. Il pollo alla griglia, tenero e saporito, offre una dose elevata di proteine, mentre i pomodorini, la cipolla rossa e la valeriana aggiungono freschezza e croccantezza. Una leggera salsa allo yogurt greco lega tutti gli ingredienti con una consistenza cremosa e poche calorie. Servito in pane integrale, è perfetto per una giornata attiva — a colazione, pranzo da asporto o dopo l'allenamento.",
+                    "image": "calorisa-recipes-osijek-protein-sandwich.jpg",
+                    "time": "20 min",
+                    "protein": "28g Proteine",
+                    "calories": "380 Calorie"
+                },
+                {
+                    "id": 3,
+                    "name": "Power Budino",
+                    "description": "Il Power Budino e un dessert proteico dolce che unisce freschezza fruttata e forza nutrizionale. I mirtilli e le fragole congelati offrono una carica di antiossidanti e sapore vivace, mentre le noci aggiungono grassi sani e una croccantezza piacevole. La base ricca di proteine rende questo budino ideale come spuntino post-allenamento, merenda intelligente o cena leggera che da energia senza calorie superflue.",
+                    "image": "calorisa-recipes-osijek-power-puding.jpg",
+                    "time": "15 min",
+                    "protein": "18g Proteine",
+                    "calories": "280 Calorie"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contattaci",
+            "description": "Ci piacerebbe sapere cosa ne pensi!",
+            "form": {
+                "firstName": "Nome",
+                "lastName": "Cognome",
+                "email": "E-mail",
+                "service": "Seleziona servizio",
+                "serviceOptions": {
+                    "placeholder": "Seleziona un servizio...",
+                    "training": "Allenamento",
+                    "nutrition": "Nutrizione",
+                    "pilates": "Pilates Reformer",
+                    "other": "Altro"
+                },
+                "message": "Messaggio",
+                "nutritionDetails": "Dettagli nutrizionali (opzionale)",
+                "nutritionDetailsNote": "Questo breve questionario mi aiuta a comprendere meglio il tuo benessere generale, così posso personalizzare la guida e il supporto per adattarli al tuo quadro completo.",
+                "optional": "(opzionale - scrivi zero se non sei sicuro)",
+                "age": "Età",
+                "height": "Altezza (cm)",
+                "weight": "Peso (kg)",
+                "bodyFat": "Percentuale di grasso corporeo (%)",
+                "diseases": "Malattie o problemi di salute",
+                "diseaseOptions": {
+                    "placeholder": "Seleziona...",
+                    "none": "Nessuno",
+                    "hypertension": "Pressione alta",
+                    "diabetes": "Diabete",
+                    "heartDisease": "Malattie cardiache",
+                    "thyroid": "Problemi alla tiroide",
+                    "other": "Altro"
+                },
+                "diseasesOther": "Specificare la condizione di salute",
+                "diseasesOtherPlaceholder": "es. asma, allergie, eczema...",
+                "dailyTraining": "Attività/Allenamento giornaliero",
+                "dailyTrainingOptions": {
+                    "placeholder": "Seleziona livello di attività...",
+                    "sedentary": "Sedentario (poco o nessun esercizio)",
+                    "light": "Attività leggera (1-3 giorni/settimana)",
+                    "moderate": "Attività moderata (3-5 giorni/settimana)",
+                    "active": "Attivo (6-7 giorni/settimana)",
+                    "veryActive": "Molto attivo (2 volte/giorno, allenamenti intensi)"
+                },
+                "bloodTest": "Hai risultati degli esami del sangue?",
+                "bloodTestOptions": {
+                    "placeholder": "Seleziona...",
+                    "yes": "Sì",
+                    "no": "No",
+                    "planned": "Ho intenzione di farli"
+                },
+                "nutritionGoal": "Obiettivo nutrizionale",
+                "nutritionGoalOptions": {
+                    "placeholder": "Seleziona un obiettivo...",
+                    "weightLoss": "Gestione del peso",
+                    "muscleGain": "Aumento della massa muscolare",
+                    "healthImprovement": "Miglioramento della salute",
+                    "sportsPerformance": "Nutrizione sportiva",
+                    "other": "Altro"
+                },
+                "trainingDetails": "Dettagli sull'allenamento",
+                "trainingDetailsNote": "Aiutami a personalizzare il tuo allenamento per adattarlo alle tue esigenze e obiettivi.",
+                "trainingType": "Tipo di allenamento",
+                "trainingTypeOptions": {
+                    "placeholder": "Seleziona il tipo...",
+                    "online": "Allenamento online",
+                    "private": "Allenamento privato"
+                },
+                "consent": "Accetto i termini di utilizzo e l'informativa sulla privacy",
+                "submit": "Invia"
+            },
+            "social": {
+                "title": "Seguici",
+                "email": "E-mail",
+                "instagram": "Instagram",
+                "youtube": "YouTube"
+            },
+            "address": {
+                "title": "Il nostro indirizzo",
+                "details": "Ul. Franje Kuhača 8, Osijek Croazia"
+            }
+        }
+    },
+    "faq": {
+        "title": "Domande frequenti",
+        "subtitle": "Trova risposte alle domande comuni su nutrizione, fitness e allenamento Pilates Reformer.",
+        "contactNote": "Hai altre domande? Contattaci pure a calorisanutrition@gmail.com",
+        "stillHaveQuestions": "Hai ancora domande?",
+        "contactUs": "Contattaci",
+        "general": {
+            "category": "Informazioni generali",
+            "q1": {
+                "question": "Lavoro solo a Osijek o anche online?",
+                "answer": "Lavoro sia a Osijek che online — ovunque tu sia, possiamo lavorare insieme perfettamente."
+            },
+            "q2": {
+                "question": "Com'è il piano alimentare?",
+                "answer": "Il piano alimentare è personalizzato per te, le tue abitudini e i tuoi obiettivi. Nessuna 'fame' o regole bizzarre — cibo vero, pasti abbondanti e deliziosi, organizzati in modo da dare risultati."
+            },
+            "q3": {
+                "question": "Devo pesare il cibo?",
+                "answer": "Se si tratta di un programma di perdita di peso, è consigliato pesare il cibo nelle prime settimane. Lo so, non è facile, ma se vuoi progredire più velocemente, una bilancia aiuterà. Altrimenti, riceverai opzioni più semplici senza pesare."
+            },
+            "q4": {
+                "question": "Quanto tempo ci vuole per i primi risultati?",
+                "answer": "I primi cambiamenti si vedono solitamente entro 2–4 settimane, a seconda di quanto segui il piano. Cambiamenti reali e più grandi li vedrai nel giro di un paio di mesi."
+            },
+            "q5": {
+                "question": "È richiesta esperienza nell'esercizio per l'allenamento?",
+                "answer": "No, non serve. Adatto il programma al tuo livello — anche se sei un principiante, tutto è graduale, sicuro e chiaramente spiegato."
+            },
+            "q6": {
+                "question": "Posso comprare il tuo ricettario?",
+                "answer": "Presto! Pubblicherò un ricettario in PDF e un catalogo di ricette. Iscriviti agli aggiornamenti e sarai il primo a sapere quando sarà disponibile."
+            }
+        }
+    },
+    "footer": {
+        "allRightsReserved": "Tutti i diritti riservati.",
+        "quickLinks": "Link Rapidi",
+        "getInTouch": "Contattaci",
+        "followUs": "Seguici",
+        "stayUpdated": "Rimani aggiornato con i nostri ultimi consigli nutrizionali e programmi di fitness.",
+        "brandDescription": "Trasforma il tuo percorso di salute con piani alimentari personalizzati e la guida esperta al fitness.",
+        "home": "Home",
+        "about": "Chi siamo",
+        "products": "Prodotti",
+        "recipes": "Ricette",
+        "contact": "Contatto",
+        "privacyPolicy": "Informativa sulla Privacy",
+        "termsOfService": "Termini di Servizio"
+    },
+    "privacy": {
+        "title": "Informativa sulla Privacy",
+        "lastUpdated": "Ultimo aggiornamento",
+        "date": "21 novembre 2025",
+        "intro": {
+            "title": "Introduzione",
+            "content": "Questa Informativa sulla Privacy descrive come Calorisa (\"noi\", \"ci\" o \"nostro\") raccoglie, utilizza e protegge le tue informazioni personali quando utilizzi il nostro sito web e servizi."
+        },
+        "dataCollection": {
+            "title": "Raccolta dati",
+            "content": "Raccogliamo informazioni che ci fornisci direttamente, tra cui: nome, indirizzo email, numero di telefono, informazioni sanitarie (opzionale), obiettivi di fitness, preferenze alimentari e qualsiasi altra informazione che scegli di fornire tramite i nostri moduli di contatto o richieste di servizi."
+        },
+        "dataUse": {
+            "title": "Come utilizziamo i tuoi dati",
+            "content": "Utilizziamo le informazioni raccolte per: fornire servizi personalizzati di nutrizione e fitness, comunicare con te sui nostri servizi, rispondere alle tue richieste, inviare newsletter (con il tuo consenso), migliorare i nostri servizi e rispettare gli obblighi legali."
+        },
+        "dataProtection": {
+            "title": "Protezione dei dati",
+            "content": "Implementiamo misure tecniche e organizzative appropriate per proteggere i tuoi dati personali da accesso non autorizzato, alterazione, divulgazione o distruzione. I tuoi dati sono archiviati in modo sicuro e accessibili solo al personale autorizzato."
+        },
+        "dataSecurity": {
+            "title": "Sicurezza dei dati",
+            "content": "Utilizziamo misure di sicurezza standard del settore, tra cui crittografia SSL, server sicuri e audit di sicurezza regolari. Tuttavia, nessun metodo di trasmissione su Internet è sicuro al 100% e non possiamo garantire una sicurezza assoluta."
+        },
+        "cookies": {
+            "title": "Cookie",
+            "content": "Il nostro sito web utilizza i cookie per migliorare l'esperienza dell'utente. I cookie sono piccoli file di testo memorizzati sul tuo dispositivo. Puoi controllare le impostazioni dei cookie tramite le preferenze del tuo browser. Utilizziamo i cookie per: ricordare la tua preferenza linguistica, analizzare il traffico del sito web e migliorare la funzionalità del sito web."
+        },
+        "thirdParty": {
+            "title": "Servizi di terze parti",
+            "content": "Potremmo utilizzare servizi di terze parti come Google Analytics per l'analisi del sito web, fornitori di servizi email per le newsletter e piattaforme di social media. Questi servizi hanno le proprie informative sulla privacy e possono raccogliere dati secondo i loro termini."
+        },
+        "yourRights": {
+            "title": "I tuoi diritti (GDPR)",
+            "content": "Ai sensi del GDPR, hai il diritto di: accedere ai tuoi dati personali, rettificare dati inesatti, cancellare i tuoi dati (\"diritto all'oblio\"), limitare il trattamento dei tuoi dati, opporti al trattamento dei dati, portabilità dei dati e revocare il consenso in qualsiasi momento. Per esercitare questi diritti, contattaci all'indirizzo calorisanutrition@gmail.com."
+        },
+        "dataRetention": {
+            "title": "Conservazione dei dati",
+            "content": "Conserviamo i tuoi dati personali solo per il tempo necessario a soddisfare gli scopi delineati in questa politica, a meno che non sia richiesto un periodo di conservazione più lungo per legge. I registri sanitari e nutrizionali dei clienti sono conservati per 7 anni in conformità con gli standard professionali."
+        },
+        "childrenPrivacy": {
+            "title": "Privacy dei bambini",
+            "content": "I nostri servizi non sono rivolti a persone di età inferiore ai 16 anni. Non raccogliamo consapevolmente informazioni personali da bambini. Se vieni a conoscenza del fatto che un bambino ci ha fornito dati personali, ti preghiamo di contattarci."
+        },
+        "changes": {
+            "title": "Modifiche a questa politica",
+            "content": "Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova politica su questa pagina e aggiornando la data \"Ultimo aggiornamento\"."
+        },
+        "contact": {
+            "title": "Contattaci",
+            "content": "Se hai domande su questa Informativa sulla Privacy o desideri esercitare i tuoi diritti, ti preghiamo di contattarci a:\nEmail: calorisanutrition@gmail.com\nIndirizzo: Ul. Franje Kuhača 8, Osijek, Croazia"
+        },
+        "consent": "Utilizzando il nostro sito web e i nostri servizi, riconosci di aver letto e compreso questa Informativa sulla Privacy."
+    },
+    "terms": {
+        "title": "Termini di Servizio",
+        "lastUpdated": "Ultimo aggiornamento",
+        "date": "21 novembre 2025",
+        "acceptance": {
+            "title": "Accettazione dei Termini",
+            "content": "Accedendo e utilizzando il sito web e i servizi Calorisa, accetti e acconsenti di essere vincolato da questi Termini di Servizio."
+        },
+        "services": {
+            "title": "Servizi Forniti",
+            "content": "Calorisa fornisce consulenza nutrizionale personalizzata, programmi di allenamento fitness, sessioni di Pilates Reformer e servizi correlati di salute e benessere."
+        },
+        "eligibility": {
+            "title": "Idoneità",
+            "content": "Devi avere almeno 16 anni per utilizzare i nostri servizi. Se hai meno di 18 anni, devi avere il consenso dei genitori o del tutore."
+        },
+        "userResponsibilities": {
+            "title": "Responsabilità dell'Utente",
+            "content": "Accetti di: fornire informazioni accurate e complete, mantenere la riservatezza del tuo account, informarci immediatamente di qualsiasi uso non autorizzato e utilizzare i nostri servizi in modo legale e rispettoso."
+        },
+        "healthDisclaimer": {
+            "title": "Esclusione di Responsabilità Sanitaria",
+            "content": "I nostri servizi di nutrizione e fitness non sostituiscono la consulenza medica professionale. Consulta sempre il tuo medico prima di iniziare un nuovo programma di nutrizione o esercizio fisico."
+        },
+        "payments": {
+            "title": "Pagamenti e Tariffe",
+            "content": "Le tariffe del servizio sono pubblicate sul nostro sito web o concordate nelle consultazioni individuali. Il pagamento è richiesto prima della prestazione dei servizi."
+        },
+        "cancellation": {
+            "title": "Cancellazione e Riprogrammazione",
+            "content": "Gli appuntamenti devono essere cancellati o riprogrammati con almeno 24 ore di anticipo. Le cancellazioni tardive possono comportare addebiti."
+        },
+        "intellectualProperty": {
+            "title": "Proprietà Intellettuale",
+            "content": "Tutti i contenuti sul sito web Calorisa sono di proprietà intellettuale di Calorisa e protetti dalle leggi sul copyright."
+        },
+        "confidentiality": {
+            "title": "Riservatezza",
+            "content": "Trattiamo tutte le informazioni dei clienti con stretta riservatezza in conformità con gli standard professionali e le normative GDPR."
+        },
+        "liability": {
+            "title": "Limitazione di Responsabilità",
+            "content": "Calorisa e il suo personale non sono responsabili per danni indiretti, accidentali o consequenziali derivanti dall'uso dei nostri servizi."
+        },
+        "termination": {
+            "title": "Risoluzione",
+            "content": "Ci riserviamo il diritto di terminare o sospendere l'accesso ai nostri servizi in qualsiasi momento senza preavviso."
+        },
+        "changes": {
+            "title": "Modifiche ai Termini",
+            "content": "Ci riserviamo il diritto di modificare questi Termini di Servizio in qualsiasi momento."
+        },
+        "governingLaw": {
+            "title": "Legge Applicabile",
+            "content": "Questi Termini di Servizio sono regolati dalle leggi della Croazia."
+        },
+        "contact": {
+            "title": "Informazioni di Contatto",
+            "content": "Per domande su questi Termini di Servizio, contattaci a:\nEmail: calorisanutrition@gmail.com\nIndirizzo: Ul. Franje Kuhača 8, Osijek, Croazia"
+        },
+        "acknowledgment": "Utilizzando i nostri servizi, riconosci di aver letto, compreso e accettato di essere vincolato da questi Termini di Servizio."
+    },
+    "notFound": {
+        "title": "Pagina non trovata",
+        "description": "La pagina che stai cercando non esiste o è stata rimossa. Controlla l'URL o torna alla homepage.",
+        "button": "Torna alla Home",
+        "backToHome": "Torna alla Home"
+    }
+}

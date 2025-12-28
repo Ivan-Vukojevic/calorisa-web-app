@@ -1,0 +1,636 @@
+{
+  "header": {
+    "logo": "Calorisa - Nutricionizam & Fitness",
+    "home": "Početna",
+    "about": "O nama",
+    "products": "Proizvodi",
+    "recipes": "Recepti",
+    "contact": "Kontakt"
+  },
+  "main": {
+    "hero": {
+      "title": "DOBRODOŠLI U DOBAR ŽIVOT.",
+      "description": "Transformirajte svoje zdravstveno putovanje s personaliziranim planovima prehrane i stručnim fitness savjetima.",
+      "ctaPrimary": "Započni",
+      "ctaSecondary": "Saznaj više",
+      "nutritionstAlt": "Nutricionist",
+      "logoAlt": "Calorisa Logo"
+    },
+    "approach": {
+      "details": {
+        "heading": "Sveobuhvatan pristup prehrani",
+        "paragraph": "Svaki klijent ima jedinstvene zdravstvene potrebe. Naš pristup je prilagođen svakom pojedincu kako bi se postiglo optimalno zdravlje. Razumijemo da je svaka osoba jedinstvena, s različitim zdravstvenim ciljevima i izazovima. Stoga pristupamo individualizirano, osiguravajući da svaki klijent dobije plan koji je prilagođen njegovim specifičnim potrebama. Kombiniranjem moderne znanstvene istraživačke prakse s tradicionalnim praksama, nastojimo pružiti najučinkovitiju i najholističniju skrb."
+      },
+      "programs": {
+        "title": "Programi i rješenja koje nudim:",
+        "healthImprovement": {
+          "title": "Poboljšanje zdravlja",
+          "description": "Za one koji žele više energije, bolju probavu i balans kroz individualno prilagođenu prehranu i svakodnevne navike."
+        },
+        "weightLoss": {
+          "title": "Regulacija tjelesne težine",
+          "description": "Zdrav i održiv pristup regulaciji tjelesne težine — bez restrikcija, s razumijevanjem i prilagodbom vlastitom ritmu."
+        },
+        "sportsNutrition": {
+          "title": "Sportska prehrana",
+          "description": "Personalizirana prehrana za rekreativce i sportaše s ciljem poboljšanja performansi, snage i oporavka."
+        },
+        "nutritionEducation": {
+          "title": "Edukacija o prehrani",
+          "description": "Učenje kako samostalno kreirati balansirane obroke, razumjeti potrebe tijela i dugoročno održavati zdrave navike."
+        }
+      },
+      "imageAlt": "Priprema zdrave hrane"
+    },
+    "about": {
+      "intro": {
+        "greeting": "Hej!",
+        "name": "Ja sam mag.nutr. Sarah Vukojević",
+        "descriptionPart1": "Ja sam <strong>Sarah</strong>, magistra nutricionizma iz <strong>Osijeka</strong>, privatna trenerica <strong>funkcionalnih treninga</strong> i certificirana <strong>instruktorica Pilates Reformer</strong> metode, s diplomom stečenom u <strong>Münchenu</strong>, Njemačka. Već više od tri godine vodim vlastiti <strong>studio u osječkoj Tvrđi</strong>, prostor posvećen cjelovitom pristupu zdravlju i pokretu.",
+        "descriptionPart2": "Zdrav način života za mene više od navike i pravila — to je <strong>umjetnost življenja</strong>. Vjerujem u <strong>balans</strong>, <strong>uživanje u hrani i prirodan ritam tijela</strong>. Prava promjena ne dolazi iz odricanja, već iz razumijevanja sebe i svojih potreba, a najbolji rezultati dolaze iz dosljednosti. U svom radu spajam <strong>znanstveno utemeljene principe nutricionizma</strong> s <strong>praktičnim iskustvom treninga</strong>, nudeći klijentima <strong>sveobuhvatan pristup</strong> koji obuhvaća tijelo, um i svakodnevne navike. Cilj mi je pomoći svakome da izgradi održiv odnos prema prehrani, pokretu i sebi — bez krajnosti, restrikcija ili osjećaja krivnje.",
+        "descriptionPart3": "Zdrav odnos prema hrani i tijelu ne donosi korist samo pojedincu, već i cijeloj obitelji. Zato vjerujem u važnost <strong>primjera koji prenosimo i djeci</strong> — kroz jednostavne, održive navike i svakodnevne izbore koji oblikuju zdraviju budućnost. U današnjem svijetu, prepunom kontradiktornih i neprovjerenih informacija, lako se izgubiti i blokirati. Zato je važno imati <strong>vodstvo koje te usmjerava i jasne zadatke</strong> koji vode do stvarnih, održivih rezultata — bez zbunjujućih trendova, već s fokusom na ono što tvoje tijelo zaista treba."
+      },
+      "image": {
+        "imageAlt": "Nutricionist Sarah Vukojević"
+      },
+      "stats": {
+        "clients": {
+          "title": "100 +",
+          "description": "Zadovoljni Klijenti"
+        },
+        "experience": {
+          "title": "10 +",
+          "description": "Godina Iskustva"
+        },
+        "services": {
+          "title": "3",
+          "description": "Vrste Usluga"
+        }
+      }
+    },
+    "programs": {
+      "title": "Savjetovanje o prehrani prilagođeno samo za vas",
+      "coverImageAlt": "Calorisa programi u Osijeku — nutricionističko savjetovanje, osobni trening i Pilates Reformer",
+      "faqButton": "Često postavljena pitanja",
+      "faqTitle": "Često postavljena pitanja",
+      "faqs": [
+        {
+          "question": "Koliko dugo traje program?",
+          "answer": "Svaki program je prilagođen vašim potrebama. Obično programi traju od 4 do 12 tjedana, ovisno o vašim ciljevima i napretku."
+        },
+        {
+          "question": "Trebam li posebnu opremu?",
+          "answer": "Ne, većina programa ne zahtijeva posebnu opremu. Prilagodit ćemo vaš plan tome što već imate ili vam pomoći s jednostavnim preporukama."
+        },
+        {
+          "question": "Kako se održava podrška?",
+          "answer": "Pružamo kontinuiranu podršku kroz redovite konzultacije, praćenje napretka i prilagodbe plana prema potrebi. Dostupni smo putem e-maila i zakazanih sastanaka."
+        }
+      ],
+      "section1": {
+        "heading": "Analiziraj svoj prehrambeni status i postavi cilj",
+        "description": "Prvi kontakt je istovremeno i prvi korak naše komunikacije. Kroz dijagnostiku i konzultacije u trajanju od 60-90 minuta želim prikupiti što više informacija o trenutnoj prehrani, kao i moguća poboljšanja. Pri dijagnostici koristi se profesionalna oprema, InBody 120 vaga koja donosi potpuno novu dimenziju u mjerenju vašeg tijela: mjerenje težine, koštane i mišićne mase, masti, udio vode u tijelu, udio proteina i minerala, visceralno masno tkivo kao i segmentalnu analizu tijela. Idealno bi bilo da na konzultacijama imate i krvnu sliku (ne stariju od 3 mjeseca)."
+      },
+      "section2": {
+        "heading": "Personalizirani plan i smjernice",
+        "description": "U drugom koraku izrađujem tvoj individualni plan prehrane i detaljne smjernice. Zajedno određujemo vrstu prehrane (mršavljenje, sportska prehrana, specifična prehrana kod određenih stanja), preporučeni kalorijski unos, broj obroka, a dobivaš i <strong>shopping listu</strong> s namirnicama za tjednu kupovinu. Imaš zgusnut raspored i nemaš vremena razmišljati što kuhati? Želiš poboljšati prehranu ili zdravstveno stanje? Želiš krenuti s treninzima, ali treba ti motivacija i vodstvo? <strong>Super – javi se i krenimo!</strong> Dobit ćeš stručne i praktične alate, motivaciju za dosljednost i stalnu podršku."
+      },
+      "section3": {
+        "heading": "Potpuno se posvetite uz podršku",
+        "description": "Redovnim kontrolama pratimo Vaš napredak i prema potrebi radimo preinake jelovnika, kalorijskog unosa ili plana treninga. Uz svaku kontrolu dobivate jasan uvid u to gdje napredujete, a gdje možemo dodatno optimizirati pristup. Preporučujem i uključivanje redovite tjelesne aktivnosti – bilo da je riječ o rekreativnom treningu, povećanju mišićne mase ili smanjenju masnog tkiva, o učestalosti treninga, intenzitetu i tipu aktivnosti (snaga, funkcionalni trening, kardiovaskularne aktivnosti). <strong>Moj cilj je da se osjećate sigurno, motivirano i vođeno prema rezultatu koji želite postići – uz prehranu i trening koji rade za vas, a ne protiv vas.</strong>"
+      }
+    },
+    "products": {
+      "heading": "Naše Usluge",
+      "coverImageAlt": "Proizvod za fitness i prehranu",
+      "tabs": {
+        "nutrition": "Prehrana",
+        "training": "Trening",
+        "pilates": "Pilates Reformer"
+      },
+      "intros": {
+        "nutrition": "Gorivo koje se uklapa u tvoj život — bez stresa, samo ravnoteža.",
+        "training": "Snaga koja se prilagođava tvom ritmu — fleksibilno i fokusirano.",
+        "pilates": "Pronađi svoj flow — ravnoteža i energija u pokretu."
+      },
+      "noteLabels": {
+        "tips-analysis": "Savjeti za analizu trenutnog stanja i ciljeva",
+        "education-habits": "Edukacija o prehrambenim navikama",
+        "suggestions": "Prijedlozi za daljnji rad",
+        "nutrition-plan": "Plan prehrane",
+        "training-plan": "Plan treninga",
+        "meal-options": "Recepti i opcije obroka",
+        "communication": "Komunikacija i fleksibilnost",
+        "adjustment": "Prilagodba tvojim potrebama",
+        "combined-plans": "Planovi prehrane i treninga",
+        "24h-support": "24-satna podrška i motivacija",
+        "check-ins": "Tjedne provjere",
+        "guidance": "Vodič kroz proces",
+        "customized-workout": "Prilagođeni planovi vježbanja",
+        "individual-coaching": "Individualna pažnja i coaching",
+        "flexible-scheduling": "Fleksibilno zakazivanje",
+        "progress-tracking": "Praćenje napretka i prilagodbe",
+        "video-sessions": "Video vježbe",
+        "weekly-plans": "Tjedni planovi treninga",
+        "online-support": "Online podrška i savjeti",
+        "device-access": "Dostupno na svim uređajima",
+        "partner-exercises": "Vježbe u paru",
+        "full-body-workout": "Trening za cijelo tijelo",
+        "all-levels": "Prikladno za sve razine",
+        "enhanced-motivation": "Povećana motivacija i zabava"
+      },
+      "nutrition": {
+        "cards": [
+          {
+            "title": "Izrada jelovnika",
+            "description": "Personalizirani jelovnici prilagođeni tvojim ciljevima, ukusu i životnom stilu.",
+            "notes": [
+              "nutrition-plan",
+              "meal-options",
+              "education-habits",
+              "adjustment"
+            ],
+            "button": "Započni s jelovnikom"
+          },
+          {
+            "title": "Vaganje i analiza",
+            "description": "Redovito praćenje napretka uz stručnu analizu i savjete za optimizaciju.",
+            "notes": [
+              "progress-tracking",
+              "tips-analysis",
+              "check-ins",
+              "adjustment"
+            ],
+            "button": "Prati svoj napredak"
+          },
+          {
+            "title": "Edukacija o prehrani",
+            "description": "Nauči sve o zdravoj prehrani i kako samostalno kreirati balansirane obroke.",
+            "notes": [
+              "education-habits",
+              "suggestions",
+              "guidance",
+              "communication"
+            ],
+            "button": "Nauči o prehrani"
+          }
+        ]
+      },
+      "training": {
+        "cards": [
+          {
+            "title": "Privatni trening",
+            "description": "Individualne sesije prilagođene tvojim fitness ciljevima.",
+            "notes": [
+              "customized-workout",
+              "individual-coaching",
+              "flexible-scheduling",
+              "progress-tracking"
+            ],
+            "button": "Započni svoj osobni trening"
+          },
+          {
+            "title": "Online trening",
+            "description": "Vježbaj gdje god želiš uz naše online programe.",
+            "notes": [
+              "video-sessions",
+              "weekly-plans",
+              "online-support",
+              "device-access"
+            ],
+            "button": "Pokrenimo se — online"
+          }
+        ]
+      },
+      "pilates": {
+        "cards": [
+          {
+            "title": "Trening u paru",
+            "description": "Reformer Pilates za dvoje — motivacija i zabava u pokretu.",
+            "notes": [
+              "partner-exercises",
+              "full-body-workout",
+              "all-levels",
+              "enhanced-motivation"
+            ],
+            "button": "Vježbajte zajedno — rezerviraj odmah"
+          }
+        ]
+      }
+    },
+    "reformer": {
+      "title": "Pilates Reformer",
+      "coverTitle": "Pilates Reformer",
+      "coverImageAlt": "Oprema za reformiranje pilatesa",
+      "features": [
+        "Poboljšana čvrstoća i stabilnost jezgre",
+        "Poboljšana fleksibilnost i držanje",
+        "Trening cijelog tijela s niskim utjecajem",
+        "Povećana mišićna tonus i definicija",
+        "Bolja tjelesna svijest i koordinacija"
+      ],
+      "button": "Zauzmi svoj trenutak - tvoj je?",
+      "noFeatures": "Trenutno nema dostupnih značajki.",
+      "importance": "Pilates Reformer je svestran komad opreme koji vam pomaže postići uravnoteženo, snažno i fleksibilno tijelo. Pogodan je za sve razine kondicije i nudi siguran, učinkovit način za poboljšanje vašeg zdravlja.",
+      "benefitsTitle": "Zašto odabrati Reformer Pilates?",
+      "benefitsSubtitle": "Otkrijte jedinstvene prednosti koje Reformer Pilates čine jednim od najučinkovitijih treninga za cijelo tijelo.",
+      "benefit1Title": "Trening cijelog tijela",
+      "benefit1Desc": "Aktivirajte svaku mišićnu skupinu s preciznošću i kontrolom",
+      "benefit2Title": "Nizak utjecaj",
+      "benefit2Desc": "Nježno prema zglobovima uz istovremeno jačanje snage i fleksibilnosti",
+      "benefit3Title": "Povećana energija",
+      "benefit3Desc": "Ubrzajte metabolizam i osjećajte se energično tijekom cijelog dana",
+      "benefit4Title": "Snaga jezgre",
+      "benefit4Desc": "Razvijte snažnu jezgru kao temelj za svakodnevni pokret",
+      "galleryTitle": "Naša studijska galerija",
+      "gallerySubtitle": "Pogledajte naš najsuvremeniji Pilates studio i vidite gdje se događa transformacija.",
+      "galleryCaption1": "Pilates Reformer sat — trening snage jezgre",
+      "galleryCaption2": "Reformer Pilates vježba — fleksibilnost i ravnoteža",
+      "galleryCaption3": "Pilates oprema u Calorisa studiju, Osijek",
+      "galleryCaption4": "Reformer trening — trening cijelog tijela",
+      "galleryCaption5": "Pilates Reformer — kontrolirani pokret i postura",
+      "galleryCaption6": "Calorisa Reformer sat — snaga i pokretljivost",
+      "galleryCaption7": "Pilates Reformer sat u Osijek studiju",
+      "galleryCaption8": "Reformer Pilates — precizni trening",
+      "sessions": {
+        "beginner": {
+          "title": "Početne sesije",
+          "description": "Savršeni uvod u Reformer trening",
+          "duration": "45 minuta",
+          "price": "50€"
+        },
+        "intermediate": {
+          "title": "Intermedijarne sesije",
+          "description": "Izgradite snagu i usavršite tehniku",
+          "duration": "60 minuta",
+          "price": "60€"
+        },
+        "advanced": {
+          "title": "Napredne sesije",
+          "description": "Izazovite se složenim pokretima",
+          "duration": "60 minuta",
+          "price": "70€"
+        }
+      }
+    },
+    "feedback": {
+      "title": "Što naši klijenti kažu",
+      "feedbackData": [
+        {
+          "name": "Tibor H.",
+          "feedback": "Evo status: sve odlično, pratim prehranu... prošli tjedan mi je bio postepeni prelazak, no generalno pratim sve. čak sam i pomaknuo obrok poslje treninga koji mi je jednostavno napraviti. Sretan sam što sam kolesterol sa 7.5 mmol/L spustio na 5.3 mmol/L, a sa ovom prehranom koju si mi preporučila očekujem da ide i niže na sljedećoj kontroli!"
+        },
+        {
+          "name": "Petra D.",
+          "feedback": "Calorisa pruža izuzetno profesionalnu i stručnu uslugu, uz vrlo ljubazan i topao pristup. Uz znanje i trud koji Sarah posvećuje svakom pitanju i potrebi, rezultati i napredak su sigurni. Sve pohvale i preporuke!"
+        },
+        {
+          "name": "Udruga \"Duga Osijek\"",
+          "feedback": "Želimo se zahvaliti veoma uspješnoj suradnji koju naša Udruga ima s vama u realizaciji naših programskih aktivnosti: radionice o zdravoj prehrani, očuvanju zdravlja, te redovnog oblika vježbanja koje se provodi pod vašim stručnim vodstvom uz svaku pohvalu korisnika navedenih aktivnosti."
+        }
+      ]
+    },
+    "recipes": {
+      "title": "Zdravi Recepti",
+      "recipesData": [
+        {
+          "id": 1,
+          "name": "Salata od bifteka i povrća",
+          "description": "Ova salata od bifteka i povrća predstavlja snažnu kombinaciju proteina i svježih, hrskavih sastojaka. Sočni komadići bifteka pružaju bogat izvor željeza i energije, dok brokula i rikola donose osvježavajuću zelenkastu notu punu vlakana. Hrskavi kupus i slatkasta crvena paprika dodaju teksturalnu raznolikost i živopisne boje, savršeno uravnotežene laganim preljevom od maslinovog ulja i limuna. Idealna je za obrok nakon treninga ili kao hranjiva večera koja ne opterećuje.",
+          "image": "calorisa-recipes-osijek-beef-veggie-salad.jpg",
+          "time": "30 min",
+          "protein": "22g Proteina",
+          "calories": "320 Kalorija"
+        },
+        {
+          "id": 2,
+          "name": "Proteinski Sendvič s piletinom i povrćem",
+          "description": "Ovaj sendvič od piletine osmišljen je za one koji traže brz, ukusan i hranjiv obrok. Nježna piletina na žaru pruža snažnu dozu proteina, dok svježe cherry rajčice, crveni luk i matovilac dodaju osvježavajuću hrskavost i bogatstvo okusa. Lagani umak od grčkog jogurta povezuje sve sastojke u skladnu cjelinu, nudeći kremastu teksturu bez suvišnih kalorija. Posluženo u integralnom pecivu, ovaj sendvič je idealan za aktivan dan — bilo kao doručak, ručak za ponijeti ili obrok nakon treninga.",
+          "image": "calorisa-recipes-osijek-protein-sandwich.jpg",
+          "time": "10 min",
+          "protein": "26g Proteina",
+          "calories": "330 Kalorija"
+        },
+        {
+          "id": 3,
+          "name": "Power Puding",
+          "description": "Power Puding je slatki proteinski desert koji spaja voćnu svježinu i hranjivu snagu. Smrznute borovnice i jagode donose bogatstvo okusa i antioksidansa, dok orasi dodaju zdravu masnoću i hrskavost. Proteinska baza čini ovaj puding idealnim za obrok nakon treninga, pametan međuobrok ili laganu večeru koja puni energijom bez suvišnih kalorija.",
+          "image": "calorisa-recipes-osijek-power-puding.jpg",
+          "time": "15 min",
+          "protein": "18g Proteina",
+          "calories": "280 Kalorija"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "description": "Voljeli bismo čuti vaše mišljenje!",
+      "form": {
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "email": "E-mail",
+        "service": "Odaberite uslugu",
+        "serviceOptions": {
+          "placeholder": "Odaberite uslugu...",
+          "training": "Trening",
+          "nutrition": "Prehrana",
+          "pilates": "Pilates Reformer",
+          "other": "Ostalo"
+        },
+        "message": "Poruka",
+        "nutritionDetails": "Detalji o prehrani (opcionalno)",
+        "nutritionDetailsNote": "Ovaj kratki upitnik pomaže mi da jasnije razumijem vaše cjelokupno zdravlje, kako bih mogla prilagoditi savjete i podršku vašoj cjelokupnoj slici.",
+        "optional": "(opcionalno - napišite nulu ako niste sigurni)",
+        "age": "Dob",
+        "height": "Visina (cm)",
+        "weight": "Težina (kg)",
+        "bodyFat": "Postotak tjelesne masti (%)",
+        "diseases": "Bolesti ili zdravstveni problemi",
+        "diseaseOptions": {
+          "placeholder": "Odaberite...",
+          "none": "Nema",
+          "hypertension": "Visoki krvni tlak",
+          "diabetes": "Dijabetes",
+          "heartDisease": "Srčane bolesti",
+          "thyroid": "Problemi sa štitnjačom",
+          "other": "Ostalo"
+        },
+        "diseasesOther": "Navedite zdravstveno stanje",
+        "diseasesOtherPlaceholder": "npr. astma, alergije, ekcem...",
+        "dailyTraining": "Dnevna aktivnost/trening",
+        "dailyTrainingOptions": {
+          "placeholder": "Odaberite razinu aktivnosti...",
+          "sedentary": "Sjedilački (malo ili nimalo vježbanja)",
+          "light": "Lagana aktivnost (1-3 dana tjedno)",
+          "moderate": "Umjerena aktivnost (3-5 dana tjedno)",
+          "active": "Aktivno (6-7 dana tjedno)",
+          "veryActive": "Vrlo aktivno (2x dnevno, intenzivni treninzi)"
+        },
+        "bloodTest": "Imate li rezultate krvnih pretraga?",
+        "bloodTestOptions": {
+          "placeholder": "Odaberite...",
+          "yes": "Da",
+          "no": "Ne",
+          "planned": "Planiram napraviti"
+        },
+        "nutritionGoal": "Cilj prehrane",
+        "nutritionGoalOptions": {
+          "placeholder": "Odaberite cilj...",
+          "weightLoss": "Regulacija tjelesne težine",
+          "muscleGain": "Povećanje mišićne mase",
+          "healthImprovement": "Poboljšanje zdravlja",
+          "sportsPerformance": "Sportska prehrana",
+          "other": "Ostalo"
+        },
+        "trainingDetails": "Detalji o treningu",
+        "trainingDetailsNote": "Pomozite mi da prilagodim vaš trening vašim potrebama i ciljevima.",
+        "trainingType": "Vrsta treninga",
+        "trainingTypeOptions": {
+          "placeholder": "Odaberite vrstu...",
+          "online": "Online trening",
+          "private": "Privatni trening"
+        },
+        "consent": "Prihvaćam uvjete korištenja i politiku privatnosti",
+        "submit": "Pošalji"
+      },
+      "social": {
+        "title": "Pratite nas",
+        "email": "E-mail",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      },
+      "address": {
+        "title": "Naša adresa",
+        "details": "Ul. Franje Kuhača 8, Osijek Hrvatska"
+      }
+    }
+  },
+  "faq": {
+    "title": "Često postavljana pitanja",
+    "subtitle": "Pronađite odgovore na najčešća pitanja o prehrani, fitnesu i Pilates Reformer treningu.",
+    "contactNote": "Imate još pitanja? Slobodno nas kontaktirajte na calorisanutrition@gmail.com",
+    "stillHaveQuestions": "Imate još pitanja?",
+    "contactUs": "Kontaktirajte nas",
+    "nutrition": {
+      "category": "Prehrana",
+      "q1": {
+        "question": "Koliko kalorija trebam jesti da smršavim?",
+        "answer": "Ciljajte na umjeren deficit od približno 300-500 kcal/dan ispod vaše razine održavanja. Pratite svoj napredak i prilagođavajte se svakih 2-4 tjedna. Fokusirajte se na adekvatan unos proteina, puno povrća i održavanje stabilne energije tijekom dana. Individualne potrebe variraju ovisno o dobi, razini aktivnosti i metaboličkom zdravlju."
+      },
+      "q2": {
+        "question": "Trebam li brojati makronutrijente ili samo kalorije?",
+        "answer": "Kalorije kontroliraju promjenu težine, dok makronutrijenti (proteini, ugljikohidrati, masti) oblikuju sastav tijela i kako se osjećate. Za većinu klijenata, praćenje proteina (1,6-2,2 g/kg tjelesne težine) i ukupnih kalorija je praktična početna točka. Napredniji ciljevi mogu zahtijevati detaljnije praćenje makronutrijenata."
+      },
+      "q3": {
+        "question": "Kako upravljati prehrambenim intolerancijama?",
+        "answer": "Započnite s eliminacijskim pristupom uz vodstvo nutricionista: uklonite sumnjive grupe hrane, pažljivo pratite simptome, zatim ponovno uvedite hranu jednu po jednu uz promatranje. Vodite detaljan dnevnik prehrane i razmislite o jednostavnim laboratorijskim testovima ako je potrebno. Stručno vodstvo osigurava nutritivnu adekvatnost tijekom procesa."
+      },
+      "q4": {
+        "question": "Trebam li dodatke prehrani?",
+        "answer": "Uravnotežena prehrana bi trebala pružiti većinu nutrijenata. Međutim, neki dodaci mogu biti korisni: Vitamin D (posebno zimi), Omega-3 masne kiseline i specifični nutrijenti na temelju krvnih nalaza. Uvijek se posavjetujte sa zdravstvenim stručnjakom prije započinjanja suplementacije."
+      }
+    },
+    "fitness": {
+      "category": "Fitnes",
+      "q1": {
+        "question": "Koliko često trebam trenirati tjedno?",
+        "answer": "Za opću kondiciju: 3-5 sesija tjedno uključujući 2-3 treninga s otporom i 1-3 kardio/mobilnost sesije, ovisno o vašim ciljevima i kapacitetu oporavka. Početnici bi trebali započeti s 3 sesije i postupno povećavati. Oporavak je jednako važan kao i trening."
+      },
+      "q2": {
+        "question": "Moram li dizati teške težine da bih gradio mišiće?",
+        "answer": "Progresivno opterećenje je ključno—možete graditi mišiće s umjerenim opterećenjima ako su volumen treninga i napor dovoljni. Ciljajte na dosljednu progresiju u težini, ponavljanjima ili setovima tijekom vremena. Pravilna tehnika i angažman mišića važniji su od apsolutne težine."
+      },
+      "q3": {
+        "question": "Kako izbjeći pretrening?",
+        "answer": "Pratite kvalitetu sna, raspoloženje, performanse i bolnost mišića. Rasporedite adekvatne dane odmora, prioritizirajte unos proteina i kalorija, te smanjite volumen ili intenzitet treninga ako doživljavate uporni umor, smanjene performanse ili povećan rizik od ozljede."
+      },
+      "q4": {
+        "question": "Mogu li trenirati tijekom trudnoće?",
+        "answer": "Da, uz dozvolu liječnika. Vježbanje tijekom trudnoće može biti korisno, ali bi trebalo biti prilagođeno vašem tromjesečju i razini kondicije. Fokusirajte se na aktivnosti s malim utjecajem, pravilno disanje i izbjegavajte vježbe koje stavljaju pritisak na trbuh. Uvijek se prvo posavjetujte sa svojim zdravstvenim provajderom."
+      }
+    },
+    "reformer": {
+      "category": "Pilates Reformer",
+      "q1": {
+        "question": "Za što je Pilates Reformer dobar?",
+        "answer": "Pilates Reformer poboljšava držanje, snagu jezgre, pokretljivost i kontrolu pokreta. Odličan je za rehabilitaciju, trening stabilnosti i funkcionalnu snagu kada se pravilno trenira. Podesivi otpor omogućava progresivnu težinu i personalizirane treninge."
+      },
+      "q2": {
+        "question": "Je li Pilates Reformer prikladan za početnike ili osobe s ozljedama?",
+        "answer": "Da—s treniram instruktorom koji može prilagoditi ili modificirati vježbe prema potrebama. Uvijek podijelite svoju potpunu medicinsku povijest i trenutna ograničenja kako bi instruktor mogao prilagoditi sesiju vašim potrebama. Reformer trening se često koristi u fizioterapijskim okruženjima."
+      },
+      "q3": {
+        "question": "Koliko često trebam imati Reformer sesije?",
+        "answer": "Za mjerljiva poboljšanja: 1-3 sesije tjedno. Dosljednost tijekom 6-12 tjedana pokazuje značajne promjene u snazi, fleksibilnosti i držanju. Kombiniranje Reformera s drugim modalitetima treninga može pojačati ukupne rezultate."
+      },
+      "q4": {
+        "question": "Što trebam nositi na Reformer sesiju?",
+        "answer": "Nosite udobnu, pripijenuu odjeću koja omogućava puni raspon pokreta. Izbjegavajte široku ili opuštenu odjeću koja bi se mogla uhvatiti na opremi. Preporučuju se čarape s gripom za sigurnost i higijenu. Uklonite nakit koji bi mogao ometati pokrete."
+      }
+    },
+    "general": {
+      "category": "Opće informacije",
+      "q1": {
+        "question": "RADIM LI SAMO U OSIJEKU ILI I ONLINE?",
+        "answer": "Radim i u Osijeku i online — gdje god da si, možemo odraditi odličnu suradnju."
+      },
+      "q2": {
+        "question": "KAKAV JE PLAN PREHRANE?",
+        "answer": "Plan prehrane je prilagođen tebi, tvojim navikama i ciljevima. Nema \"gladovanja\" ni bizarnih pravila — prava hrana, obilni i ukusni obroci, koji su složeni tako da ti daju rezultat."
+      },
+      "q3": {
+        "question": "TREBAM LI VAGATI HRANU?",
+        "answer": "Ukoliko je program mršavljenja, prvih tjedana je preporuka vagati hranu. Znam, nije jednostavno, ali ako želiš brže napredovati, vaga će pomoći. U suprotnom dobiješ jednostavnije opcije bez vaganja."
+      },
+      "q4": {
+        "question": "KOLIKO VREMENA TREBA ZA PRVE REZULTATE?",
+        "answer": "Prve promjene obično se vide kroz 2–4 tjedna, ovisno o tome koliko se držiš plana. Realne, veće promjene vidiš kroz par mjeseci."
+      },
+      "q5": {
+        "question": "DA LI JE ZA TRENINGE POTREBNO ISKUSTVO U VJEŽBANJU?",
+        "answer": "Ne treba. Program prilagodim tvojoj razini — i ako si početnik, sve ide postepeno, sigurno i jasno objašnjeno."
+      },
+      "q6": {
+        "question": "MOGU LI KUPITI VAŠU KUHARICU?",
+        "answer": "Uskoro! Objavit ću PDF kuharicu i katalog recepata. Pretplatite se na novosti i budite prvi koji će saznati kada je dostupna."
+      }
+    }
+  },
+  "footer": {
+    "allRightsReserved": "Sva prava pridržana.",
+    "quickLinks": "Brze poveznice",
+    "getInTouch": "Kontaktirajte nas",
+    "followUs": "Pratite nas",
+    "stayUpdated": "Ostanite u tijeku s našim najnovijim savjetima o prehrani i fitness programima.",
+    "brandDescription": "Transformirajte svoje putovanje prema zdravlju s personaliziranim planovima prehrane i stručnom fitness podrškom.",
+    "home": "Početna",
+    "about": "O nama",
+    "products": "Proizvodi",
+    "recipes": "Recepti",
+    "contact": "Kontakt",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uvjeti korištenja"
+  },
+  "privacy": {
+    "title": "Politika privatnosti",
+    "lastUpdated": "Zadnje ažurirano",
+    "date": "21. studenog 2025.",
+    "intro": {
+      "title": "Uvod",
+      "content": "Ova Politika privatnosti opisuje kako Calorisa (\"mi\", \"nas\" ili \"naš\") prikuplja, koristi i štiti vaše osobne podatke kada koristite našu web stranicu i usluge."
+    },
+    "dataCollection": {
+      "title": "Prikupljanje podataka",
+      "content": "Prikupljamo informacije koje nam izravno pružite, uključujući: ime, adresu e-pošte, telefonski broj, zdravstvene informacije (opcionalno), fitnes ciljeve, prehrambene preferencije i sve druge informacije koje odaberete pružiti putem naših kontaktnih obrazaca ili upita za usluge."
+    },
+    "dataUse": {
+      "title": "Kako koristimo vaše podatke",
+      "content": "Prikupljene informacije koristimo za: pružanje personaliziranih usluga prehrane i fitnessa, komunikaciju s vama o našim uslugama, odgovaranje na vaše upite, slanje biltena (uz vašu suglasnost), poboljšanje naših usluga i poštivanje zakonskih obveza."
+    },
+    "dataProtection": {
+      "title": "Zaštita podataka",
+      "content": "Provodimo odgovarajuće tehničke i organizacijske mjere za zaštitu vaših osobnih podataka od neovlaštenog pristupa, izmjene, otkrivanja ili uništavanja. Vaši podaci pohranjuju se sigurno i njima pristupa samo ovlašteno osoblje."
+    },
+    "dataSecurity": {
+      "title": "Sigurnost podataka",
+      "content": "Koristimo sigurnosne mjere industrijskih standarda uključujući SSL enkripciju, sigurne servere i redovite sigurnosne revizije. Međutim, nijedna metoda prijenosa preko Interneta nije 100% sigurna i ne možemo jamčiti apsolutnu sigurnost."
+    },
+    "cookies": {
+      "title": "Kolačići",
+      "content": "Naša web stranica koristi kolačiće za poboljšanje korisničkog iskustva. Kolačići su male tekstualne datoteke pohranjene na vašem uređaju. Postavke kolačića možete kontrolirati putem postavki preglednika. Kolačiće koristimo za: pamćenje vaših jezičnih preferencija, analizu prometa na web stranici i poboljšanje funkcionalnosti web stranice."
+    },
+    "thirdParty": {
+      "title": "Usluge trećih strana",
+      "content": "Možemo koristiti usluge trećih strana kao što su Google Analytics za analitiku web stranice, pružatelji usluga e-pošte za biltene i platforme društvenih medija. Ove usluge imaju vlastite politike privatnosti i mogu prikupljati podatke u skladu sa svojim uvjetima."
+    },
+    "yourRights": {
+      "title": "Vaša prava (GDPR)",
+      "content": "Prema GDPR-u, imate pravo na: pristup svojim osobnim podacima, ispravljanje netočnih podataka, brisanje podataka (\"pravo na zaborav\"), ograničavanje obrade podataka, prigovor obradi podataka, prenosivost podataka i povlačenje suglasnosti u bilo kojem trenutku. Za ostvarivanje ovih prava kontaktirajte nas na calorisanutrition@gmail.com."
+    },
+    "dataRetention": {
+      "title": "Čuvanje podataka",
+      "content": "Vaše osobne podatke čuvamo samo onoliko dugo koliko je potrebno za ispunjenje svrha navedenih u ovoj politici, osim ako dulje razdoblje čuvanja zahtijeva zakon. Zapisi o zdravlju i prehrani klijenata čuvaju se 7 godina u skladu s profesionalnim standardima."
+    },
+    "childrenPrivacy": {
+      "title": "Privatnost djece",
+      "content": "Naše usluge nisu namijenjene osobama mlađim od 16 godina. Svjesno ne prikupljamo osobne podatke od djece. Ako saznate da nam je dijete pružilo osobne podatke, molimo vas da nas kontaktirate."
+    },
+    "changes": {
+      "title": "Promjene ove politike",
+      "content": "Povremeno možemo ažurirati ovu Politiku privatnosti. O svim promjenama ćemo vas obavijestiti objavljivanjem nove politike na ovoj stranici i ažuriranjem datuma \"Zadnje ažurirano\"."
+    },
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "content": "Ako imate pitanja o ovoj Politici privatnosti ili želite ostvariti svoja prava, kontaktirajte nas na:\nE-pošta: calorisanutrition@gmail.com\nAdresa: Ul. Franje Kuhača 8, Osijek, Hrvatska"
+    },
+    "consent": "Korištenjem naše web stranice i usluga, potvrđujete da ste pročitali i razumjeli ovu Politiku privatnosti."
+  },
+  "terms": {
+    "title": "Uvjeti korištenja",
+    "lastUpdated": "Zadnje ažurirano",
+    "date": "21. studenog 2025.",
+    "acceptance": {
+      "title": "Prihvaćanje uvjeta",
+      "content": "Pristupanjem i korištenjem web stranice i usluga Calorisa, prihvaćate i slažete se biti vezani ovim Uvjetima korištenja. Ako se ne slažete s ovim uvjetima, molimo nemojte koristiti naše usluge."
+    },
+    "services": {
+      "title": "Pružene usluge",
+      "content": "Calorisa pruža personalizirane konzultacije o prehrani, programe fitness treninga, Pilates Reformer sesije i povezane usluge zdravlja i wellnessa. Naše usluge namijenjene su u informativne i edukativne svrhe i ne bi trebale zamijeniti profesionalni medicinski savjet."
+    },
+    "eligibility": {
+      "title": "Prihvatljivost",
+      "content": "Morate imati najmanje 16 godina da biste koristili naše usluge. Ako ste mlađi od 18 godina, morate imati pristanak roditelja ili skrbnika. Korištenjem naših usluga, izjavljujete da ispunjavate ove uvjete."
+    },
+    "userResponsibilities": {
+      "title": "Odgovornosti korisnika",
+      "content": "Slažete se: pružiti točne i potpune informacije, održavati povjerljivost vašeg računa, odmah nas obavijestiti o neovlaštenom korištenju, slijediti profesionalne smjernice i preporuke, obavijestiti nas o bilo kakvim zdravstvenim stanjima ili promjenama i koristiti naše usluge na zakonit i pošten način."
+    },
+    "healthDisclaimer": {
+      "title": "Odricanje od odgovornosti za zdravlje",
+      "content": "Naše usluge prehrane i fitnessa nisu zamjena za profesionalni medicinski savjet, dijagnozu ili liječenje. Uvijek se posavjetujte sa svojim liječnikom prije početka bilo kakvog novog programa prehrane ili vježbanja. Calorisa nije odgovorna za bilo kakve zdravstvene probleme koji mogu nastati praćenjem naših preporuka bez odgovarajućeg medicinskog nadzora."
+    },
+    "payments": {
+      "title": "Plaćanja i naknade",
+      "content": "Naknade za usluge su onako kako je objavljeno na našoj web stranici ili kako je dogovoreno u individualnim konzultacijama. Plaćanje je potrebno prije pružanja usluga osim ako nije drugačije dogovoreno. Cijene podložne su promjenama uz prethodnu obavijest. Politike povrata novca određuju se individualno."
+    },
+    "cancellation": {
+      "title": "Otkazivanje i preraspoređivanje",
+      "content": "Termini moraju biti otkazani ili preraspoređeni najmanje 24 sata unaprijed. Kasna otkazivanja ili nedolaske mogu rezultirati naplatom. Zadržavamo pravo otkazati ili prerasporediti termine zbog nepredviđenih okolnosti."
+    },
+    "intellectualProperty": {
+      "title": "Intelektualno vlasništvo",
+      "content": "Sav sadržaj na web stranici Calorisa, uključujući tekst, slike, logotipe, planove prehrane, programe treninga i recepte, intelektualno je vlasništvo Calorisa i zaštićeno zakonima o autorskim pravima. Ne smijete reproducirati, distribuirati ili stvarati izvedena djela bez našeg pisanog dopuštenja."
+    },
+    "confidentiality": {
+      "title": "Povjerljivost",
+      "content": "Sve podatke klijenata tretiramo sa strogom povjerljivošću u skladu s profesionalnim standardima i GDPR propisima. Informacije o zdravlju i prehrani neće biti podijeljene s trećim stranama bez vašeg izričitog pristanka, osim ako to zakon zahtijeva."
+    },
+    "liability": {
+      "title": "Ograničenje odgovornosti",
+      "content": "Calorisa i njezino osoblje nisu odgovorni za bilo kakvu neizravnu, slučajnu, posebnu ili posljedičnu štetu koja proizlazi iz korištenja naših usluga. Naša odgovornost ograničena je na iznos plaćen za određenu uslugu."
+    },
+    "termination": {
+      "title": "Prekid",
+      "content": "Zadržavamo pravo prekinuti ili suspendirati pristup našim uslugama u bilo kojem trenutku, bez prethodne najave, za ponašanje za koje vjerujemo da krši ove Uvjete korištenja ili je štetno za druge korisnike, nas ili treće strane, ili iz bilo kojeg drugog razloga."
+    },
+    "changes": {
+      "title": "Promjene uvjeta",
+      "content": "Zadržavamo pravo izmijeniti ove Uvjete korištenja u bilo kojem trenutku. Promjene će stupiti na snagu odmah nakon objave na web stranici. Vaše nastavno korištenje naših usluga nakon objave promjena predstavlja prihvaćanje izmijenjenih uvjeta."
+    },
+    "governingLaw": {
+      "title": "Mjerodavno pravo",
+      "content": "Ovi Uvjeti korištenja regulirani su i tumače se u skladu sa zakonima Hrvatske. Svi sporovi bit će riješeni na sudovima u Osijeku, Hrvatska."
+    },
+    "contact": {
+      "title": "Kontakt informacije",
+      "content": "Za pitanja o ovim Uvjetima korištenja, kontaktirajte nas na:\nE-pošta: calorisanutrition@gmail.com\nAdresa: Ul. Franje Kuhača 8, Osijek, Hrvatska"
+    },
+    "acknowledgment": "Korištenjem naših usluga, potvrđujete da ste pročitali, razumjeli i slažete se biti vezani ovim Uvjetima korištenja."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been removed. Check the URL or return to the homepage.",
+    "button": "Back to Home",
+    "backToHome": "Povratak na početnu"
+  }
+}

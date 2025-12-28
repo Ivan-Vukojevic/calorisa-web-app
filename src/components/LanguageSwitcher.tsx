@@ -49,7 +49,7 @@ export default function LanguageSwitcher(): JSX.Element {
         <Globe className="w-4 h-4" />
         <span>{selectedLanguage}</span>
       </DropdownMenuTrigger>
-      <DropdownMenuContentAny align="end" className="w-40 lg:bg-white lg:text-[var(--brand)] lg:shadow-md lg:border">
+      <DropdownMenuContentAny align="end" className="w-40 bg-white text-[var(--brand)] shadow-md border">
         {languages.map((lang) => (
           <DropdownMenuItemAny
             key={lang.code}
