@@ -1,12 +1,22 @@
-# Calorisa — Fitness & Nutrition Web App
+# Calorisa — Personalized Health & Nutrition Platform
 
-Modern React + Vite application featuring programs, products, recipes, reformer info, and more. It uses TypeScript, Tailwind CSS, Framer Motion, and i18next for translations.
+Modern React + Vite web application for personalized nutrition counseling, fitness programs, and Pilates Reformer training in Osijek, Croatia. Built with TypeScript, Tailwind CSS, Framer Motion, and multi-language support (Croatian, English, German, Italian).
 
-**Live development** runs on Vite, and **tests** are powered by Vitest + Testing Library.
+🌐 **Live Site:** [calorisa.hr](https://calorisa.hr) | **Deployment:** Vercel
+
+## Features
+- 🌍 **Multi-language support** (hr, en, de, it) with i18next
+- 🎨 **Custom typography** with self-hosted Anton font (Croatian character support)
+- 📱 **Fully responsive** design optimized for mobile, tablet, and desktop
+- ⚡ **Optimized images** with AVIF/WebP formats and lazy loading
+- 🎭 **Smooth animations** powered by Framer Motion
+- ♿ **Accessible** with skip-to-content navigation and ARIA landmarks
+- 📊 **Analytics** via Vercel Analytics + Speed Insights
 
 ## Tech Stack
 - **Framework:** React 18, Vite 5, TypeScript
 - **Styling:** Tailwind CSS (utility-first)
+- **Typography:** Self-hosted Anton (headings), Google Fonts Anonymous Pro (body)
 - **Animations:** Framer Motion
 - **Routing:** React Router DOM
 - **i18n:** i18next + react-i18next
@@ -89,9 +99,19 @@ Important files:
 - Tailwind config: [tailwind.config.js](tailwind.config.js)
 
 ## Internationalization (i18n)
-- Translations via `useTranslation()` and `<Trans />`.
-- Initialization lives under [src/hooks/i18n.jsx](src/hooks/i18n.jsx).
-- Example usage: [src/sections/ProgramsSection/index.tsx](src/sections/ProgramsSection/index.tsx) (headings/descriptions via i18n).
+- **Supported languages:** Croatian (hr), English (en), German (de), Italian (it)
+- Translations via `useTranslation()` and `<Trans />` from react-i18next
+- Translation files located in [public/locales](public/locales)
+- Initialization lives under [src/hooks/i18n.jsx](src/hooks/i18n.jsx)
+- Example usage: [src/sections/ProgramsSection/index.tsx](src/sections/ProgramsSection/index.tsx)
+
+## Typography & Fonts
+- **Headings:** Self-hosted Anton font with full Croatian character support (ć, č, đ, š, ž)
+  - Font file: [public/fonts/anton-v27-latin_latin-ext-regular.woff2](public/fonts/anton-v27-latin_latin-ext-regular.woff2)
+  - @font-face declaration: [src/index.css](src/index.css)
+  - Uses `font-display: block` for consistent rendering on first load
+- **Body text:** Anonymous Pro from Google Fonts (monospace)
+- **Why self-hosted?** Ensures Croatian diacritics render consistently across all browsers and devices, especially on iOS Safari
 
 ## Images & Optimization
 - Static assets under [src/assets/images](src/assets/images).
@@ -120,8 +140,26 @@ node scripts/optimize-images.js
 - If you switch test environment to `jsdom`, you may need to align versions to avoid parse5/ESM compatibility issues.
 
 ## Deployment
-- Build with `npm run build` and deploy the `dist/` folder to your hosting platform.
-- For Vercel/Netlify/Static hosting, set the project to use Vite’s build output.
+- **Production:** [calorisa.hr](https://calorisa.hr)
+- **Platform:** Vercel (automatic deployments from GitHub)
+- **Build command:** `npm run build`
+- **Output directory:** `dist/`
+
+### Deploy to Vercel
+1. Connect your GitHub repository to Vercel
+2. Set build command: `npm run build`
+3. Set output directory: `dist`
+4. Deploy automatically on push to `main` branch
+
+### Custom Domain Setup
+- Configure DNS A records to point to Vercel
+- Add domain in Vercel project settings
+- SSL certificates are auto-provisioned
 
 ---
-Want a contributing section or environment variable docs added? Share details and I’ll extend this README.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+Proprietary — © 2025 Calorisa / Sarah Vukojević
