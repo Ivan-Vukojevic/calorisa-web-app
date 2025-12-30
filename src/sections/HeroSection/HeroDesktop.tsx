@@ -39,6 +39,7 @@ function HeroDesktop({
         <div className="relative z-10 max-w-xl">
           <motion.h1 
             className="font-['Anton',sans-serif] text-[#3c2626] mb-6"
+            style={{ letterSpacing: '0.02em' }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
