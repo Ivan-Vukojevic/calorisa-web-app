@@ -4,6 +4,16 @@
 
 /* stylelint-enable at-rule-no-unknown */
 
+/* Self-hosted Anton font with Croatian character support */
+@font-face {
+  font-display: block;
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/anton-v27-latin_latin-ext-regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0100-017F, U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Account for fixed header */
