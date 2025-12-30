@@ -39,19 +39,15 @@ function GallerySection(): JSX.Element {
   const isMobile = window.innerWidth < 768;
 
   return (
-    <div className="flex flex-wrap w-full gap-[10px]">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[10px]">
       {posts.map(post => (
         <div 
           key={post.id} 
-          className={`flex-[1_1_auto] ${
-            post.id === 7 
-              ? 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]' 
-              : 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]'
-          } ${
+          className={`${
             post.id === 7 
               ? 'h-[300px] md:h-[200px]' 
               : 'h-[200px]'
-          } overflow-hidden`}
+          } w-full overflow-hidden`}
         >
           {/* eslint-disable-next-line react/forbid-dom-props */}
           <img
