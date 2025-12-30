@@ -14,9 +14,7 @@ interface GalleryPost {
   id: number;
   jpg: string;
   alt: string;
-  zoom: number;
   focalPoint: string;
-  zoomMobile?: number;
 }
 
 /**
@@ -24,40 +22,39 @@ interface GalleryPost {
  */
 function GallerySection(): JSX.Element {
   const posts = useMemo<GalleryPost[]>(() => [
-    { id: 1, jpg: img1jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', zoom: 1.15, focalPoint: 'top' },
-    { id: 2, jpg: img2jpg, alt: 'Transformation training — personalized fitness coaching', zoom: 1.15, focalPoint: 'center' },
-    { id: 3, jpg: img3jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', zoom: 1.4, focalPoint: 'top' },
-    { id: 4, jpg: img4jpg, alt: 'Hormonal balance nutrition coaching', zoom: 1.15, focalPoint: 'center' },
-    { id: 5, jpg: img5jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', zoom: 1.15, focalPoint: 'center 40%' },
-    { id: 6, jpg: img6jpg, alt: 'Holistic health and wellness coaching', zoom: 1.15, focalPoint: 'bottom' },
-    { id: 7, jpg: img7jpg, alt: 'Fitness consultation at Calorisa — personalized training plans', zoom: 1.15, focalPoint: 'center' },
-    { id: 8, jpg: img8jpg, alt: 'Functional fitness coaching at Calorisa studio', zoom: 1.3, focalPoint: 'top' },
-    { id: 9, jpg: img9jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', zoom: 1.15, focalPoint: 'center' },
-    { id: 10, jpg: img10jpg, alt: 'Healthy eating habits and meal planning guidance', zoom: 1.15, focalPoint: 'center' }
+    { id: 1, jpg: img1jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'top' },
+    { id: 2, jpg: img2jpg, alt: 'Transformation training — personalized fitness coaching', focalPoint: 'center' },
+    { id: 3, jpg: img3jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'top' },
+    { id: 4, jpg: img4jpg, alt: 'Hormonal balance nutrition coaching', focalPoint: 'center' },
+    { id: 5, jpg: img5jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'center 40%' },
+    { id: 6, jpg: img6jpg, alt: 'Holistic health and wellness coaching', focalPoint: 'bottom' },
+    { id: 7, jpg: img7jpg, alt: 'Fitness consultation at Calorisa — personalized training plans', focalPoint: 'center' },
+    { id: 8, jpg: img8jpg, alt: 'Functional fitness coaching at Calorisa studio', focalPoint: 'top' },
+    { id: 9, jpg: img9jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'center' },
+    { id: 10, jpg: img10jpg, alt: 'Healthy eating habits and meal planning guidance', focalPoint: 'center' }
   ], []);
 
-  const isMobile = window.innerWidth < 768;
-
   return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[10px]">
+    <div className="flex flex-wrap w-full gap-[10px]">
       {posts.map(post => (
         <div 
           key={post.id} 
-          className={`${
+          className={`flex-[1_1_auto] ${
+            post.id === 7 
+              ? 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]' 
+              : 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]'
+          } ${
             post.id === 7 
               ? 'h-[300px] md:h-[200px]' 
               : 'h-[200px]'
-          } w-full overflow-hidden`}
+          } overflow-hidden`}
         >
           {/* eslint-disable-next-line react/forbid-dom-props */}
           <img
             src={post.jpg}
             alt={post.alt}
-            className="w-full h-full object-cover transform transition-transform duration-300 will-change-transform"
-            style={{ 
-              transform: `scale(${isMobile && post.zoomMobile ? post.zoomMobile : post.zoom})`, 
-              objectPosition: post.focalPoint 
-            }}
+            className="w-full h-full object-cover"
+            style={{ objectPosition: post.focalPoint }}
             loading="lazy"
             decoding="async"
           />
