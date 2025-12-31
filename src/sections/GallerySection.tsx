@@ -14,7 +14,6 @@ interface GalleryPost {
   id: number;
   jpg: string;
   alt: string;
-  focalPoint: string;
 }
 
 /**
@@ -22,16 +21,16 @@ interface GalleryPost {
  */
 function GallerySection(): JSX.Element {
   const posts = useMemo<GalleryPost[]>(() => [
-    { id: 1, jpg: img1jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'top' },
-    { id: 2, jpg: img2jpg, alt: 'Transformation training — personalized fitness coaching', focalPoint: 'center' },
-    { id: 3, jpg: img3jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'top' },
-    { id: 4, jpg: img4jpg, alt: 'Hormonal balance nutrition coaching', focalPoint: 'center' },
-    { id: 5, jpg: img5jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'center 40%' },
-    { id: 6, jpg: img6jpg, alt: 'Holistic health and wellness coaching', focalPoint: 'bottom' },
-    { id: 7, jpg: img7jpg, alt: 'Fitness consultation at Calorisa — personalized training plans', focalPoint: 'center' },
-    { id: 8, jpg: img8jpg, alt: 'Functional fitness coaching at Calorisa studio', focalPoint: 'top' },
-    { id: 9, jpg: img9jpg, alt: 'Calorisa Pilates Reformer studio, Osijek', focalPoint: 'center' },
-    { id: 10, jpg: img10jpg, alt: 'Healthy eating habits and meal planning guidance', focalPoint: 'center' }
+    { id: 1, jpg: img1jpg, alt: 'Calorisa Pilates Reformer studio, Osijek' },
+    { id: 2, jpg: img2jpg, alt: 'Transformation training — personalized fitness coaching' },
+    { id: 3, jpg: img3jpg, alt: 'Calorisa Pilates Reformer studio, Osijek' },
+    { id: 4, jpg: img4jpg, alt: 'Hormonal balance nutrition coaching' },
+    { id: 5, jpg: img5jpg, alt: 'Calorisa Pilates Reformer studio, Osijek' },
+    { id: 6, jpg: img6jpg, alt: 'Holistic health and wellness coaching' },
+    { id: 7, jpg: img7jpg, alt: 'Fitness consultation at Calorisa — personalized training plans' },
+    { id: 8, jpg: img8jpg, alt: 'Functional fitness coaching at Calorisa studio' },
+    { id: 9, jpg: img9jpg, alt: 'Calorisa Pilates Reformer studio, Osijek' },
+    { id: 10, jpg: img10jpg, alt: 'Healthy eating habits and meal planning guidance' }
   ], []);
 
   return (
@@ -54,7 +53,6 @@ function GallerySection(): JSX.Element {
             src={post.jpg}
             alt={post.alt}
             className="w-full h-full object-cover"
-            style={{ objectPosition: post.focalPoint }}
             loading="lazy"
             decoding="async"
           />
