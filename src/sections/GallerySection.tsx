@@ -34,22 +34,24 @@ function GallerySection(): JSX.Element {
   ], []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3 lg:gap-4 w-full">
-      {posts.map(post => (
-        <div 
-          key={post.id} 
-          className="relative aspect-square overflow-hidden rounded-sm"
-        >
-          {/* eslint-disable-next-line react/forbid-dom-props */}
-          <img
-            src={post.jpg}
-            alt={post.alt}
-            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-            loading="lazy"
-            decoding="async"
-          />
-        </div>
-      ))}
+    <div className="w-full bg-[#f7f0ec] px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3 lg:gap-4 w-full">
+        {posts.map(post => (
+          <div 
+            key={post.id} 
+            className="relative aspect-square overflow-hidden"
+          >
+            {/* eslint-disable-next-line react/forbid-dom-props */}
+            <img
+              src={post.jpg}
+              alt={post.alt}
+              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
