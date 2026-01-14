@@ -34,25 +34,17 @@ function GallerySection(): JSX.Element {
   ], []);
 
   return (
-    <div className="flex flex-wrap w-full gap-[10px]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3 lg:gap-4 w-full">
       {posts.map(post => (
         <div 
           key={post.id} 
-          className={`flex-[1_1_auto] ${
-            post.id === 7 
-              ? 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]' 
-              : 'max-w-[100%] md:max-w-[calc(50%-10px)] lg:max-w-[calc(33.333%-10px)]'
-          } ${
-            post.id === 7 
-              ? 'h-[300px] md:h-[200px]' 
-              : 'h-[200px]'
-          } overflow-hidden`}
+          className="relative aspect-square overflow-hidden rounded-sm"
         >
           {/* eslint-disable-next-line react/forbid-dom-props */}
           <img
             src={post.jpg}
             alt={post.alt}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             loading="lazy"
             decoding="async"
           />
