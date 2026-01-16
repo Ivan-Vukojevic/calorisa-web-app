@@ -104,7 +104,7 @@ export const useContactForm = (): UseContactFormReturn => {
     }
 
     // Submit to Formspree
-    const envId = (import.meta as any).env?.VITE_FORMSPREE_FORM_ID as string | undefined;
+    const envId = import.meta.env.VITE_FORMSPREE_FORM_ID;
     if (!envId || envId === 'yourFormId') {
       setStatus({ ok: false, message: 'Form configuration error: missing Formspree ID. Please set VITE_FORMSPREE_FORM_ID in .env.local.' });
       return;
