@@ -1,9 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { buildPathWithLocale, getResolvedLocale } from '../../utils/locale';
 
 function ProgramsFaqButton(): JSX.Element {
+  const location = useLocation();
+  const locale = getResolvedLocale(location.pathname);
+  const faqPath = buildPathWithLocale(locale, '/faq');
+
   return (
-    <Link to="/faq">
+    <Link to={faqPath}>
       <motion.div
         className="fixed bottom-4 right-8 md:bottom-8 md:right-8 z-50"
         whileHover={{ scale: 1.1, rotate: [0, -5, 5, -5, 0] }}

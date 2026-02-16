@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUp, Instagram, Youtube, Mail, Home, Info, Package, Utensils, LucideIcon } from 'lucide-react';
 import imgLogo from '../../assets/images/calorisa-logo.png';
+import { buildPathWithLocale, getResolvedLocale } from '../../utils/locale';
 
 interface NavLink {
   key: string;
@@ -36,6 +37,11 @@ function Footer(): JSX.Element {
 
   const location = useLocation();
   const navigate = useNavigate();
+  const locale = getResolvedLocale(location.pathname);
+  const homePath = buildPathWithLocale(locale, '/');
+  const faqPath = buildPathWithLocale(locale, '/faq');
+  const privacyPath = buildPathWithLocale(locale, '/privacy');
+  const termsPath = buildPathWithLocale(locale, '/terms');
 
   const handleFooterNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: NavLink): void => {
     e.preventDefault();
@@ -50,8 +56,8 @@ function Footer(): JSX.Element {
       }
     };
 
-    if (location.pathname !== '/') {
-      navigate('/');
+    if (location.pathname !== homePath) {
+      navigate(homePath);
       setTimeout(scrollToElement, 200);
     } else {
       scrollToElement();
@@ -203,13 +209,13 @@ function Footer(): JSX.Element {
             &copy; {currentYear} Calorisa. {t('footer.allRightsReserved')}
           </p>
           <div className="flex gap-6 text-sm text-white/70">
-            <Link to="/faq" className="hover:text-white transition-colors">
+            <Link to={faqPath} className="hover:text-white transition-colors">
               {t('footer.faq', 'FAQ')}
             </Link>
-            <Link to="/privacy" className="hover:text-white transition-colors">
+            <Link to={privacyPath} className="hover:text-white transition-colors">
               {t('footer.privacyPolicy', 'Privacy Policy')}
             </Link>
-            <Link to="/terms" className="hover:text-white transition-colors">
+            <Link to={termsPath} className="hover:text-white transition-colors">
               {t('footer.termsOfService', 'Terms of Service')}
             </Link>
           </div>

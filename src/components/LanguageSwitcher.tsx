@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Globe } from "lucide-react";
 import { useTranslation } from 'react-i18next';
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { buildPathWithLocale, getResolvedLocale } from "../utils/locale";
 
 interface Language {
   code: string;
@@ -26,18 +28,24 @@ const languages: Language[] = [
  */
 export default function LanguageSwitcher(): JSX.Element {
   const { i18n } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const resolvedLocale = getResolvedLocale(location.pathname);
   const [selectedLanguage, setSelectedLanguage] = useState<string>(
-    i18n.language?.toUpperCase() || 'EN'
+    resolvedLocale.toUpperCase()
   );
 
   const handleLanguageChange = (language: string): void => {
     setSelectedLanguage(language);
-    i18n.changeLanguage(language.toLowerCase());
+    const nextLocale = language.toLowerCase();
+    i18n.changeLanguage(nextLocale);
+    const nextPath = buildPathWithLocale(nextLocale, location.pathname);
+    navigate(`${nextPath}${location.search}${location.hash}`);
   };
 
   useEffect(() => {
-    setSelectedLanguage(i18n.language?.toUpperCase() || 'EN');
-  }, [i18n.language]);
+    setSelectedLanguage(getResolvedLocale(location.pathname).toUpperCase());
+  }, [location.pathname]);
 
   // Cast to a generic React component type so children prop is accepted until the original typing is fixed
   const DropdownMenuContentAny = DropdownMenuContent as unknown as React.ComponentType<any>;

@@ -7,6 +7,7 @@ import LanguageSwitcher from "../LanguageSwitcher";
 import logo115 from "../../assets/images/calorisa-brown-logo-w115.png";
 import logo230 from "../../assets/images/calorisa-brown-logo-w230.png";
 import { useTranslation } from "react-i18next";
+import { buildPathWithLocale, getResolvedLocale } from "../../utils/locale";
 
 interface NavLink {
   key: string;
@@ -33,6 +34,8 @@ export function Navigation({ isScrolled = false, isPassedApproach = false }: Nav
   const { t } = useTranslation();
   const location = useLocation();
   const navigate = useNavigate();
+  const locale = getResolvedLocale(location.pathname);
+  const homePath = buildPathWithLocale(locale, '/');
 
   const navLinks: NavLink[] = [
     { key: "home", label: t("header.home"), href: "#hero" },
@@ -112,8 +115,8 @@ export function Navigation({ isScrolled = false, isPassedApproach = false }: Nav
     setIsMobileMenuOpen(false);
     
     // If we're not on the home page, navigate there first
-    if (location.pathname !== '/') {
-      navigate('/');
+    if (location.pathname !== homePath) {
+      navigate(homePath);
       setTimeout(() => {
         setActiveLink(link.key);
         const element = document.querySelector(link.href);
@@ -146,7 +149,7 @@ export function Navigation({ isScrolled = false, isPassedApproach = false }: Nav
       <div className="max-w-screen-2xl mx-auto px-6 sm:px-12 lg:px-20">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link to="/">
+          <Link to={homePath}>
             <motion.div 
               className={`cursor-pointer group ${isPassedApproach ? 'lg:block hidden' : ''}`}
               initial={{ opacity: 0, x: -20 }}

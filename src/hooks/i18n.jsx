@@ -1,9 +1,14 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
+import { DEFAULT_LOCALE, getLocaleFromPathname } from '../utils/locale';
 
 // Get initial language from localStorage or default to Croatian
 const getInitialLanguage = () => {
+    const pathLocale = typeof window !== 'undefined'
+        ? getLocaleFromPathname(window.location.pathname)
+        : null;
+    if (pathLocale) return pathLocale;
     try {
         const persisted = localStorage.getItem('calorisa_lang');
         if (persisted) return persisted;
@@ -11,7 +16,7 @@ const getInitialLanguage = () => {
         // ignore localStorage errors (SSR)
     }
     // Default to Croatian
-    return 'hr';
+    return DEFAULT_LOCALE;
 };
 
 // Initialize i18next with HTTP backend to load translations from JSON files

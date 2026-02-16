@@ -1,12 +1,16 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { buildPathWithLocale, getResolvedLocale } from '../utils/locale';
 
 /**
  * 404 Not Found page component
  */
 function NotFound(): JSX.Element {
   const { t } = useTranslation();
+  const location = useLocation();
+  const locale = getResolvedLocale(location.pathname);
+  const homePath = buildPathWithLocale(locale, '/');
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#faf8f6] px-4">
@@ -53,7 +57,7 @@ function NotFound(): JSX.Element {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <Link
-            to="/"
+            to={homePath}
             className="inline-flex items-center justify-center px-8 py-4 bg-[var(--brand)] text-white font-['Anton',sans-serif] text-lg rounded-lg hover:bg-[var(--brand-dark)] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             {t('notFound.backToHome')}
