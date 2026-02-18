@@ -2,7 +2,7 @@
 
 Modern React + Vite web application for personalized nutrition counseling, fitness programs, and Pilates Reformer training in Osijek, Croatia. Built with TypeScript, Tailwind CSS, Framer Motion, and multi-language support (Croatian, English, German, Italian).
 
-🌐 **Live Site:** [calorisa.hr](https://calorisa.hr) | **Deployment:** Vercel
+🌐 **Live Site:** [www.calorisa.hr](https://www.calorisa.hr) | **Deployment:** Vercel
 
 ## Features
 - 🌍 **Multi-language support** (hr, en, de, it) with i18next
@@ -140,7 +140,7 @@ node scripts/optimize-images.js
 - If you switch test environment to `jsdom`, you may need to align versions to avoid parse5/ESM compatibility issues.
 
 ## Deployment
-- **Production:** [calorisa.hr](https://calorisa.hr)
+- **Production:** [www.calorisa.hr](https://www.calorisa.hr)
 - **Platform:** Vercel (automatic deployments from GitHub)
 - **Build command:** `npm run build`
 - **Output directory:** `dist/`
