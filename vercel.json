@@ -1,5 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "^/$", "dest": "/index.html" },
+    { "src": "^/(faq|privacy|terms)/?$", "dest": "/index.html" },
+    { "src": "^/(en|de|it)/?$", "dest": "/index.html" },
+    { "src": "^/(en|de|it)/(faq|privacy|terms)/?$", "dest": "/index.html" },
+    { "src": "^/.*", "status": 404, "dest": "/404.html" }
   ]
 }
