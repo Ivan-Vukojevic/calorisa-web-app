@@ -110,6 +110,7 @@
         "training": "Training",
         "pilates": "Pilates Reformer"
       },
+      "downloadPdf": "📄 Preisliste Dienstleistungen (PDF)",
       "intros": {
         "nutrition": "Kraftstoff, der zu Ihrem Leben passt — kein Stress, nur Balance.",
         "training": "Kraft, die sich Ihrem Rhythmus anpasst — flexibel und fokussiert.",
@@ -144,40 +145,36 @@
       "nutrition": {
         "cards": [
           {
-            "title": "Menüerstellung",
-            "description": "Personalisierte Essenspläne, abgestimmt auf Ihre Ziele, Vorlieben und Lebensstil.",
-            "price": "350€",
+            "title": "Ernährungsplan Erstellung",
+            "description": "Premium personalisierte Ernährungspläne, angepasst an Ihre Ziele, Ihren Geschmack und Ihren Lebensstil.",
+            "button": "Ernährungsplan starten",
             "notes": [
-              "nutrition-plan",
-              "meal-options",
-              "education-habits",
-              "adjustment"
-            ],
-            "button": "Starten Sie Ihr Menü"
+              "Ernährungsplan für 30 Tage",
+              "Rezepte und Mahlzeitenoptionen",
+              "Richtlinien zur Einführung gesunder Gewohnheiten",
+              "Anpassung an Ihre Bedürfnisse"
+            ]
           },
           {
             "title": "Wiegen & Analyse",
-            "description": "Regelmäßige Fortschrittsverfolgung mit Expertenanalyse und Optimierungstipps.",
-            "price": "30€",
+            "description": "Detaillierte Fortschrittsverfolgung und Analyse der Körperzusammensetzung für optimale Ergebnisse.",
+            "button": "Termin buchen",
             "notes": [
-              "progress-tracking",
-              "tips-analysis",
-              "check-ins",
-              "adjustment"
-            ],
-            "button": "Verfolgen Sie Ihren Fortschritt"
+              "Messung von Fett- und Muskelmasse",
+              "Präzise Fortschrittsverfolgung",
+              "Erklärung und Interpretation der Ergebnisse"
+            ]
           },
           {
-            "title": "Ernährungsbildung",
-            "description": "Lernen Sie alles über gesunde Ernährung und wie Sie selbstständig ausgewogene Mahlzeiten zusammenstellen.",
-            "price": "250€",
+            "title": "Ernährungsberatung",
+            "description": "Individuelle Beratung und fachliche Unterstützung, angepasst an Ihre Ernährungsbedürfnisse.",
+            "button": "Termin buchen",
             "notes": [
-              "education-habits",
-              "suggestions",
-              "guidance",
-              "communication"
-            ],
-            "button": "Lernen Sie über Ernährung"
+              "Dauer: 1 Stunde",
+              "Grundlagen der richtigen Ernährung",
+              "Analyse der bisherigen Gewohnheiten",
+              "Antworten auf alle Ihre Fragen und Zweifel"
+            ]
           }
         ]
       },
@@ -188,6 +185,7 @@
             "description": "Individuelle Trainingseinheiten, die auf Ihre Fitnessziele zugeschnitten sind.",
             "price": "35€ / Sitzung",
             "notes": [
+              "Dauer der Leistung: 1 Stunde",
               "customized-workout",
               "individual-coaching",
               "flexible-scheduling",
@@ -200,6 +198,7 @@
             "description": "Trainieren Sie von überall mit unseren umfassenden Online-Trainingsprogrammen.",
             "price": "25€ / Monat",
             "notes": [
+              "Leistung wird monatlich abgerechnet",
               "video-sessions",
               "weekly-plans",
               "online-support",
@@ -212,15 +211,8 @@
       "pilates": {
         "cards": [
           {
-            "title": "Dual Reformer Training",
-            "description": "Reformer Pilates für zwei Personen – Motivation und Spaß in Bewegung.",
-            "price": "150€ / Person",
-            "notes": [
-              "partner-exercises",
-              "full-body-workout",
-              "all-levels",
-              "enhanced-motivation"
-            ],
+            "title": "Halbprivates Pilates",
+            "description": "Training für maximal 2 Personen. Die angegebenen Preise gelten pro Person.",
             "button": "Gemeinsam trainieren — jetzt buchen"
           }
         ]

@@ -326,4 +326,10 @@ code {
       font-size: 2rem;
     }
   }
+
+  @media (max-width: 768px) {
+    .back-to-top-button {
+      display: none;
+    }
+  }
 }

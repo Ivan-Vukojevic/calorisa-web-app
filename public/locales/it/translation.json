@@ -110,6 +110,7 @@
                 "training": "Allenamento",
                 "pilates": "Pilates Reformer"
             },
+            "downloadPdf": "📄 Listino servizi (PDF)",
             "intros": {
                 "nutrition": "Carburante che si adatta alla tua vita — senza stress, solo equilibrio.",
                 "training": "Forza che si adatta al tuo ritmo — flessibile e mirato.",
@@ -144,40 +145,36 @@
             "nutrition": {
                 "cards": [
                     {
-                        "title": "Creazione Menu",
-                        "description": "Piani pasto personalizzati adattati ai tuoi obiettivi, gusti e stile di vita.",
-                        "price": "€350",
+                        "title": "Creazione del Menu",
+                        "description": "Piani alimentari personalizzati premium adatti ai tuoi obiettivi, ai tuoi gusti e al tuo stile di vita.",
+                        "button": "Inizia il piano alimentare",
                         "notes": [
-                            "nutrition-plan",
-                            "meal-options",
-                            "education-habits",
-                            "adjustment"
-                        ],
-                        "button": "Inizia il Tuo Menu"
+                            "Piano alimentare per 30 giorni",
+                            "Ricette e opzioni per i pasti",
+                            "Linee guida per l'adozione di sane abitudini",
+                            "Adattato alle tue esigenze"
+                        ]
                     },
                     {
                         "title": "Pesatura & Analisi",
-                        "description": "Monitoraggio regolare dei progressi con analisi esperta e suggerimenti di ottimizzazione.",
-                        "price": "€30",
+                        "description": "Monitoraggio dettagliato dei progressi e analisi della composizione corporea per risultati ottimali.",
+                        "button": "Prenota una sessione",
                         "notes": [
-                            "progress-tracking",
-                            "tips-analysis",
-                            "check-ins",
-                            "adjustment"
-                        ],
-                        "button": "Monitora i Tuoi Progressi"
+                            "Misurazione della massa grassa e muscolare",
+                            "Monitoraggio preciso dei progressi",
+                            "Spiegazione e interpretazione dei risultati"
+                        ]
                     },
                     {
-                        "title": "Educazione Nutrizionale",
-                        "description": "Impara tutto sull'alimentazione sana e come creare pasti equilibrati in modo indipendente.",
-                        "price": "€250",
+                        "title": "Consulenza Nutrizionale",
+                        "description": "Consulenza individuale e supporto esperto su misura per le tue esigenze nutrizionali.",
+                        "button": "Prenota una sessione",
                         "notes": [
-                            "education-habits",
-                            "suggestions",
-                            "guidance",
-                            "communication"
-                        ],
-                        "button": "Impara sulla Nutrizione"
+                            "Durata: 1 ora",
+                            "Basi di una corretta alimentazione",
+                            "Analisi delle abitudini attuali",
+                            "Risposte a tutte le tue domande e dubbi"
+                        ]
                     }
                 ]
             },
@@ -188,6 +185,7 @@
                         "description": "Sessioni di allenamento personalizzate uno a uno su misura per i tuoi obiettivi fitness.",
                         "price": "€35 / sessione",
                         "notes": [
+                            "Durata del servizio: 1 ora",
                             "customized-workout",
                             "individual-coaching",
                             "flexible-scheduling",
@@ -200,6 +198,7 @@
                         "description": "Allenati ovunque con i nostri programmi di allenamento online completi.",
                         "price": "€25 / mese",
                         "notes": [
+                            "Il servizio viene fatturato mensilmente",
                             "video-sessions",
                             "weekly-plans",
                             "online-support",
@@ -212,15 +211,8 @@
             "pilates": {
                 "cards": [
                     {
-                        "title": "Allenamento Dual Reformer",
-                        "description": "Sessione di Pilates Reformer per due persone – motivazione e divertimento in movimento.",
-                        "price": "€150 / persona",
-                        "notes": [
-                            "partner-exercises",
-                            "full-body-workout",
-                            "all-levels",
-                            "enhanced-motivation"
-                        ],
+                        "title": "Pilates Semiprivato",
+                        "description": "Allenamento personalizzato per un massimo di 2 persone. I prezzi indicati si intendono a persona.",
                         "button": "Allenatevi insieme — prenota ora"
                     }
                 ]

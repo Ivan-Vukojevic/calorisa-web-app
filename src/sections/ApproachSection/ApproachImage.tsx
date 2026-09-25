@@ -43,6 +43,8 @@ export const ApproachImage = memo<ApproachImageProps>(({ fadeSlideVariants }) =>
               src={approachJpg512}
               srcSet={`${approachJpg512} 512w, ${approachJpg767} 767w`}
               sizes="(min-width: 768px) 512px, 384px"
+              width={512}
+              height={512}
               alt={t('main.approach.imageAlt')}
               className="w-full h-full object-cover rounded-full shadow-2xl"
               style={{ transform: 'scale(1.3)', objectPosition: 'center top' }}

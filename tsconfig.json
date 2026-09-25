@@ -27,6 +27,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "ignoreDeprecations": "6.0",
     
     /* React types */
     "types": ["vite/client", "node"]

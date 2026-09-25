@@ -110,6 +110,7 @@
         "training": "Trening",
         "pilates": "Pilates Reformer"
       },
+      "downloadPdf": "📄 Cjenik usluga (PDF)",
       "intros": {
         "nutrition": "Gorivo koje se uklapa u tvoj život — bez stresa, samo ravnoteža.",
         "training": "Snaga koja se prilagođava tvom ritmu — fleksibilno i fokusirano.",
@@ -145,36 +146,35 @@
         "cards": [
           {
             "title": "Izrada jelovnika",
-            "description": "Personalizirani jelovnici prilagođeni tvojim ciljevima, ukusu i životnom stilu.",
+            "description": "Premium personalizirani jelovnici prilagođeni tvojim ciljevima, ukusu i životnom stilu.",
+            "button": "Započni s jelovnikom",
             "notes": [
-              "nutrition-plan",
-              "meal-options",
-              "education-habits",
-              "adjustment"
-            ],
-            "button": "Započni s jelovnikom"
+              "Plan prehrane za 30 dana",
+              "Recepti i opcije obroka",
+              "Smjernice za usvajanje zdravih navika",
+              "Prilagodba tvojim potrebama"
+            ]
           },
           {
             "title": "Vaganje i analiza",
-            "description": "Redovito praćenje napretka uz stručnu analizu i savjete za optimizaciju.",
+            "description": "Detaljno praćenje napretka i analiza sastava tijela za optimalne rezultate.",
+            "button": "Rezerviraj termin",
             "notes": [
-              "progress-tracking",
-              "tips-analysis",
-              "check-ins",
-              "adjustment"
-            ],
-            "button": "Prati svoj napredak"
+              "Mjerenje udjela masti i mišića",
+              "Precizno praćenje progresa",
+              "Objašnjenje i interpretacija rezultata"
+            ]
           },
           {
-            "title": "Edukacija o prehrani",
-            "description": "Nauči sve o zdravoj prehrani i kako samostalno kreirati balansirane obroke.",
+            "title": "Nutricionističke konzultacije",
+            "description": "Individualno savjetovanje i stručna podrška prilagođena tvojim prehrambenim potrebama.",
+            "button": "Rezerviraj termin",
             "notes": [
-              "education-habits",
-              "suggestions",
-              "guidance",
-              "communication"
-            ],
-            "button": "Nauči o prehrani"
+              "Trajanje: 1 sat",
+              "Osnove pravilne prehrane",
+              "Analiza dosadašnjih navika",
+              "Odgovori na sva tvoja pitanja i nedoumice"
+            ]
           }
         ]
       },
@@ -184,6 +184,7 @@
             "title": "Privatni trening",
             "description": "Individualne sesije prilagođene tvojim fitness ciljevima.",
             "notes": [
+              "Trajanje usluge: 1 sat",
               "customized-workout",
               "individual-coaching",
               "flexible-scheduling",
@@ -195,6 +196,7 @@
             "title": "Online trening",
             "description": "Vježbaj gdje god želiš uz naše online programe.",
             "notes": [
+              "Usluga se obračunava mjesečno",
               "video-sessions",
               "weekly-plans",
               "online-support",
@@ -207,14 +209,8 @@
       "pilates": {
         "cards": [
           {
-            "title": "Trening u paru",
-            "description": "Reformer Pilates za dvoje — motivacija i zabava u pokretu.",
-            "notes": [
-              "partner-exercises",
-              "full-body-workout",
-              "all-levels",
-              "enhanced-motivation"
-            ],
+            "title": "Poluprivatni Pilates",
+            "description": "Trening prilagođen za maksimalno 2 osobe. Navedene cijene odnose se na jednu osobu.",
             "button": "Vježbajte zajedno — rezerviraj odmah"
           }
         ]

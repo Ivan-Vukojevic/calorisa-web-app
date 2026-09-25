@@ -110,6 +110,7 @@
         "training": "Training",
         "pilates": "Pilates Reformer"
       },
+      "downloadPdf": "📄 Services price list (PDF)",
       "intros": {
         "nutrition": "Fuel that fits your life — no stress, just balance.",
         "training": "Strength that adapts to your rhythm — flexible and focused.",
@@ -145,21 +146,35 @@
         "cards": [
           {
             "title": "Menu Creation",
-            "description": "Personalized meal plans tailored to your goals, tastes, and lifestyle.",
-            "notes": ["nutrition-plan", "meal-options", "education-habits", "adjustment"],
-            "button": "Start Your Menu"
+            "description": "Premium personalized meal plans tailored to your goals, taste, and lifestyle.",
+            "button": "Get Started",
+            "notes": [
+              "30-day nutrition plan",
+              "Recipes and meal options",
+              "Guidelines for adopting healthy habits",
+              "Tailored to your needs"
+            ]
           },
           {
             "title": "Weighing & Analysis",
-            "description": "Regular progress tracking with expert analysis and optimization tips.",
-            "notes": ["progress-tracking", "tips-analysis", "check-ins", "adjustment"],
-            "button": "Track Your Progress"
+            "description": "Detailed progress tracking and body composition analysis for optimal results.",
+            "button": "Book a Session",
+            "notes": [
+              "Fat and muscle mass measurement",
+              "Precise progress tracking",
+              "Explanation and interpretation of results"
+            ]
           },
           {
-            "title": "Nutrition Education",
-            "description": "Learn everything about healthy eating and how to create balanced meals independently.",
-            "notes": ["education-habits", "suggestions", "guidance", "communication"],
-            "button": "Learn About Nutrition"
+            "title": "Nutrition Consultation",
+            "description": "Individual counseling and expert support tailored to your nutritional needs.",
+            "button": "Book a Session",
+            "notes": [
+              "Duration: 1 hour",
+              "Basics of proper nutrition",
+              "Analysis of current habits",
+              "Answers to all your questions and dilemmas"
+            ]
           }
         ]
       },
@@ -169,14 +184,26 @@
             "title": "Private Training",
             "description": "One-on-one personalized training sessions tailored to your fitness goals.",
             "price": "€35 / session",
-            "notes": ["customized-workout", "individual-coaching", "flexible-scheduling", "progress-tracking"],
+            "notes": [
+              "Service duration: 1 hour",
+              "customized-workout",
+              "individual-coaching",
+              "flexible-scheduling",
+              "progress-tracking"
+            ],
             "button": "Start Your Private Coaching"
           },
           {
             "title": "Online Training",
             "description": "Train from anywhere with our comprehensive online training programs.",
             "price": "€25 / month",
-            "notes": ["video-sessions", "weekly-plans", "online-support", "device-access"],
+            "notes": [
+              "Service is billed monthly",
+              "video-sessions",
+              "weekly-plans",
+              "online-support",
+              "device-access"
+            ],
             "button": "Let's Get Moving — Online"
           }
         ]
@@ -184,9 +211,8 @@
       "pilates": {
         "cards": [
           {
-            "title": "Dual Reformer Workout",
-            "description": "Reformer Pilates session designed for two people working together.",
-            "notes": ["partner-exercises", "full-body-workout", "all-levels", "enhanced-motivation"],
+            "title": "Semi-Private Pilates",
+            "description": "Training tailored for a maximum of 2 people. The listed prices are per person.",
             "button": "Train Together — Book Now"
           }
         ]

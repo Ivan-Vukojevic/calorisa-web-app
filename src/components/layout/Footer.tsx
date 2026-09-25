@@ -218,6 +218,14 @@ function Footer(): JSX.Element {
             <Link to={termsPath} className="hover:text-white transition-colors">
               {t('footer.termsOfService', 'Terms of Service')}
             </Link>
+            <a
+              href="https://script.google.com/macros/s/AKfycbzENfT7xjqWSgJeZXjj6ZImsGCYIYLWUw94MKxfw-xjoEELp_kEdfGdM2YOWSh8BjiQ/exec"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Cjenik (XML)
+            </a>
           </div>
         </motion.div>
       </div>
@@ -225,7 +233,7 @@ function Footer(): JSX.Element {
       {/* Scroll to Top Button */}
       <motion.button 
         onClick={scrollToTop}
-        className="fixed right-6 bottom-6 bg-gradient-to-r from-[var(--brand)] to-[var(--brand-dark)] hover:from-[var(--brand-dark)] hover:to-[var(--brand-darker)] text-white p-4 rounded-full shadow-xl transition-all duration-300 z-50"
+        className="back-to-top-button fixed right-6 bottom-22 md:bottom-6 bg-gradient-to-r from-[var(--brand)] to-[var(--brand-dark)] hover:from-[var(--brand-dark)] hover:to-[var(--brand-darker)] text-white p-4 rounded-full shadow-xl transition-all duration-300 z-50"
         whileHover={{ scale: 1.15, y: -5 }}
         whileTap={{ scale: 0.9 }}
         initial={{ opacity: 0, y: 20 }}
