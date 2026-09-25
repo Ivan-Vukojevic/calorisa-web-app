@@ -42,6 +42,10 @@ function Footer(): JSX.Element {
   const faqPath = buildPathWithLocale(locale, '/faq');
   const privacyPath = buildPathWithLocale(locale, '/privacy');
   const termsPath = buildPathWithLocale(locale, '/terms');
+  const cjenikXmlBaseUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+  const cjenikXmlUrl = cjenikXmlBaseUrl
+    ? `${cjenikXmlBaseUrl}${cjenikXmlBaseUrl.includes('?') ? '&' : '?'}format=xml`
+    : '#';
 
   const handleFooterNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: NavLink): void => {
     e.preventDefault();
@@ -219,7 +223,7 @@ function Footer(): JSX.Element {
               {t('footer.termsOfService', 'Terms of Service')}
             </Link>
             <a
-              href="https://script.google.com/macros/s/AKfycbzENfT7xjqWSgJeZXjj6ZImsGCYIYLWUw94MKxfw-xjoEELp_kEdfGdM2YOWSh8BjiQ/exec"
+              href={cjenikXmlUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
